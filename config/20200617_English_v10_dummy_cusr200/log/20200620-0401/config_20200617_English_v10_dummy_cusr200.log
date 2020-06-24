@@ -1,0 +1,266 @@
+INFO : 06-20 04:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| PyTorch: 1.4.0
+INFO : 06-20 04:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| Using Device: cuda
+INFO : 06-20 04:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| The model has 589,219 trainable parameters
+INFO : 06-20 04:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| train_dl.dataset size: 8064
+INFO : 06-20 04:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| valid_dl.dataset size: 2016
+INFO : 06-20 04:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting train
+INFO : 06-20 04:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Train Loss: 0.67208	AUC: 0.503706
+INFO : 06-20 04:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Valid Loss: 0.67989	AUC: 0.499644
+INFO : 06-20 04:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	KSVectorLoss: 6.45334
+INFO : 06-20 04:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	W1: 0.00136659	W2: 6.48453e-06
+INFO : 06-20 04:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.499682 at epoch 10
+INFO : 06-20 04:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:04 2m 40s passed ( - 50m 46s til 22:32) (100epoch 5.0%)
+INFO : 06-20 04:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Train Loss: 0.665009	AUC: 0.512528
+INFO : 06-20 04:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Valid Loss: 0.677773	AUC: 0.501176
+INFO : 06-20 04:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	KSVectorLoss: 6.34923
+INFO : 06-20 04:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	W1: 0.00320083	W2: 3.19918e-05
+INFO : 06-20 04:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.501176 refreshed and saved!
+INFO : 06-20 04:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:07 5m 20s passed ( - 48m 4s til 12:12) (200epoch 10.0%)
+INFO : 06-20 04:09 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	Train Loss: 0.66356	AUC: 0.519913
+INFO : 06-20 04:09 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	Valid Loss: 0.677694	AUC: 0.502105
+INFO : 06-20 04:09 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	KSVectorLoss: 6.32667
+INFO : 06-20 04:09 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	W1: 0.00394441	W2: 4.88084e-05
+INFO : 06-20 04:09 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.502105 refreshed and saved!
+INFO : 06-20 04:09 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:09 7m 59s passed ( - 45m 17s til 21:20) (300epoch 15.0%)
+INFO : 06-20 04:12 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 400	Train Loss: 0.663123	AUC: 0.522634
+INFO : 06-20 04:12 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 400	Valid Loss: 0.677692	AUC: 0.503076
+INFO : 06-20 04:12 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 400	KSVectorLoss: 6.3206
+INFO : 06-20 04:12 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 400	W1: 0.00415637	W2: 5.67375e-05
+INFO : 06-20 04:12 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.503076 refreshed and saved!
+INFO : 06-20 04:12 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:12 10m 40s passed ( - 42m 41s til 08:43) (400epoch 20.0%)
+INFO : 06-20 04:15 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 500	Train Loss: 0.662879	AUC: 0.524161
+INFO : 06-20 04:15 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 500	Valid Loss: 0.677676	AUC: 0.504122
+INFO : 06-20 04:15 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 500	KSVectorLoss: 6.31868
+INFO : 06-20 04:15 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 500	W1: 0.00420913	W2: 6.06501e-05
+INFO : 06-20 04:15 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.504122 refreshed and saved!
+INFO : 06-20 04:15 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:15 13m 20s passed ( - 40m 2s til 14:06) (500epoch 25.0%)
+INFO : 06-20 04:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 600	Train Loss: 0.662725	AUC: 0.52521
+INFO : 06-20 04:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 600	Valid Loss: 0.67765	AUC: 0.504769
+INFO : 06-20 04:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 600	KSVectorLoss: 6.3182
+INFO : 06-20 04:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 600	W1: 0.00421847	W2: 6.28504e-05
+INFO : 06-20 04:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.504769 refreshed and saved!
+INFO : 06-20 04:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:17 16m 0s passed ( - 37m 21s til 18:46) (600epoch 30.0%)
+INFO : 06-20 04:20 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 700	Train Loss: 0.662558	AUC: 0.526799
+INFO : 06-20 04:20 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 700	Valid Loss: 0.677623	AUC: 0.505289
+INFO : 06-20 04:20 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 700	KSVectorLoss: 6.31834
+INFO : 06-20 04:20 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 700	W1: 0.00422221	W2: 6.42768e-05
+INFO : 06-20 04:20 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.505289 refreshed and saved!
+INFO : 06-20 04:20 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:20 18m 40s passed ( - 34m 41s til 15:06) (700epoch 35.0%)
+INFO : 06-20 04:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 800	Train Loss: 0.662436	AUC: 0.528068
+INFO : 06-20 04:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 800	Valid Loss: 0.677597	AUC: 0.505766
+INFO : 06-20 04:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 800	KSVectorLoss: 6.31873
+INFO : 06-20 04:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 800	W1: 0.00423405	W2: 6.53515e-05
+INFO : 06-20 04:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.505766 refreshed and saved!
+INFO : 06-20 04:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:23 21m 21s passed ( - 32m 1s til 03:19) (800epoch 40.0%)
+INFO : 06-20 04:25 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 900	Train Loss: 0.66234	AUC: 0.529143
+INFO : 06-20 04:25 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 900	Valid Loss: 0.677571	AUC: 0.506243
+INFO : 06-20 04:25 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 900	KSVectorLoss: 6.31929
+INFO : 06-20 04:25 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 900	W1: 0.00425944	W2: 6.62813e-05
+INFO : 06-20 04:25 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.506243 refreshed and saved!
+INFO : 06-20 04:25 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:25 24m 2s passed ( - 29m 22s til 17:54) (900epoch 45.0%)
+INFO : 06-20 04:28 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1000	Train Loss: 0.662254	AUC: 0.530201
+INFO : 06-20 04:28 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1000	Valid Loss: 0.677543	AUC: 0.506753
+INFO : 06-20 04:28 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1000	KSVectorLoss: 6.31992
+INFO : 06-20 04:28 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1000	W1: 0.00430262	W2: 6.71978e-05
+INFO : 06-20 04:28 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.506753 refreshed and saved!
+INFO : 06-20 04:28 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:28 26m 43s passed ( - 26m 43s til 07:23) (1000epoch 50.0%)
+INFO : 06-20 04:31 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1100	Train Loss: 0.662132	AUC: 0.531739
+INFO : 06-20 04:31 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1100	Valid Loss: 0.677511	AUC: 0.507286
+INFO : 06-20 04:31 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1100	KSVectorLoss: 6.32055
+INFO : 06-20 04:31 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1100	W1: 0.00436694	W2: 6.81846e-05
+INFO : 06-20 04:31 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.507286 refreshed and saved!
+INFO : 06-20 04:31 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:31 29m 23s passed ( - 24m 3s til 09:05) (1100epoch 55.0%)
+INFO : 06-20 04:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1200	Train Loss: 0.661999	AUC: 0.53346
+INFO : 06-20 04:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1200	Valid Loss: 0.677474	AUC: 0.507971
+INFO : 06-20 04:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1200	KSVectorLoss: 6.32115
+INFO : 06-20 04:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1200	W1: 0.00445572	W2: 6.93332e-05
+INFO : 06-20 04:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.507971 refreshed and saved!
+INFO : 06-20 04:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:33 32m 3s passed ( - 21m 22s til 16:11) (1200epoch 60.0%)
+INFO : 06-20 04:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1300	Train Loss: 0.661883	AUC: 0.534745
+INFO : 06-20 04:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1300	Valid Loss: 0.677426	AUC: 0.508875
+INFO : 06-20 04:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1300	KSVectorLoss: 6.32164
+INFO : 06-20 04:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1300	W1: 0.00457467	W2: 7.07579e-05
+INFO : 06-20 04:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.508875 refreshed and saved!
+INFO : 06-20 04:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:36 34m 44s passed ( - 18m 42s til 09:28) (1300epoch 65.0%)
+INFO : 06-20 04:39 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1400	Train Loss: 0.661751	AUC: 0.536179
+INFO : 06-20 04:39 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1400	Valid Loss: 0.677364	AUC: 0.509979
+INFO : 06-20 04:39 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1400	KSVectorLoss: 6.32192
+INFO : 06-20 04:39 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1400	W1: 0.0047289	W2: 7.25589e-05
+INFO : 06-20 04:39 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.509979 refreshed and saved!
+INFO : 06-20 04:39 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:39 37m 24s passed ( - 16m 2s til 07:08) (1400epoch 70.0%)
+INFO : 06-20 04:41 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1500	Train Loss: 0.661548	AUC: 0.53844
+INFO : 06-20 04:41 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1500	Valid Loss: 0.67728	AUC: 0.511376
+INFO : 06-20 04:41 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1500	KSVectorLoss: 6.32185
+INFO : 06-20 04:41 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1500	W1: 0.00492739	W2: 7.49584e-05
+INFO : 06-20 04:41 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.511376 refreshed and saved!
+INFO : 06-20 04:41 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:41 40m 5s passed ( - 13m 21s til 01:52) (1500epoch 75.0%)
+INFO : 06-20 04:44 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1600	Train Loss: 0.661337	AUC: 0.540559
+INFO : 06-20 04:44 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1600	Valid Loss: 0.677164	AUC: 0.513164
+INFO : 06-20 04:44 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1600	KSVectorLoss: 6.32108
+INFO : 06-20 04:44 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1600	W1: 0.00518031	W2: 7.82728e-05
+INFO : 06-20 04:44 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.513164 refreshed and saved!
+INFO : 06-20 04:44 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:44 42m 45s passed ( - 10m 41s til 12:22) (1600epoch 80.0%)
+INFO : 06-20 04:47 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1700	Train Loss: 0.661092	AUC: 0.542613
+INFO : 06-20 04:47 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1700	Valid Loss: 0.677003	AUC: 0.515388
+INFO : 06-20 04:47 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1700	KSVectorLoss: 6.31913
+INFO : 06-20 04:47 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1700	W1: 0.00549383	W2: 8.28892e-05
+INFO : 06-20 04:47 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.515388 refreshed and saved!
+INFO : 06-20 04:47 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:47 45m 25s passed ( - 8m 1s til 05:25) (1700epoch 85.0%)
+INFO : 06-20 04:49 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1800	Train Loss: 0.660737	AUC: 0.544885
+INFO : 06-20 04:49 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1800	Valid Loss: 0.676798	AUC: 0.518
+INFO : 06-20 04:49 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1800	KSVectorLoss: 6.31517
+INFO : 06-20 04:49 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1800	W1: 0.0058541	W2: 8.8949e-05
+INFO : 06-20 04:49 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.518 refreshed and saved!
+INFO : 06-20 04:49 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:49 48m 6s passed ( - 5m 20s til 21:11) (1800epoch 90.0%)
+INFO : 06-20 04:52 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1900	Train Loss: 0.6604	AUC: 0.546964
+INFO : 06-20 04:52 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1900	Valid Loss: 0.676563	AUC: 0.52086
+INFO : 06-20 04:52 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1900	KSVectorLoss: 6.30924
+INFO : 06-20 04:52 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 1900	W1: 0.00622072	W2: 9.59362e-05
+INFO : 06-20 04:52 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.52086 refreshed and saved!
+INFO : 06-20 04:52 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:52 50m 46s passed ( - 2m 40s til 13:32) (1900epoch 95.0%)
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 2000	Train Loss: 0.659909	AUC: 0.550264
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 2000	Valid Loss: 0.676338	AUC: 0.523667
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 2000	KSVectorLoss: 6.30222
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 2000	W1: 0.00655597	W2: 0.000102923
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.523667 refreshed and saved!
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:55 53m 26s passed ( - 0m 0s til 04:55) (2000epoch 100.0%)
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| Loading model /code/output/config/20200617_English_v10_dummy_cusr200/checkpoints/20200620-0401/f0_best.model
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| test_dl.dataset size: 2520
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting test
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test Loss: 0.655987	AUC: 0.547887
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test KSV Loss: 6.17723
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	W1: 0.00655485	W2: 0.000103284
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	r1: 0.651735
+INFO : 06-20 04:55 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test AUC(C): 0.582949
+INFO : 06-20 04:56 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP soft 	 good:bad = 224:243
+INFO : 06-20 04:56 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP hard 	 nDCG = 0.7996±0.1740
+INFO : 06-20 04:56 : ksdkt/20200617_English_v10_dummy_cusr200 	| The model has 589,219 trainable parameters
+INFO : 06-20 04:56 : ksdkt/20200617_English_v10_dummy_cusr200 	| train_dl.dataset size: 8064
+INFO : 06-20 04:56 : ksdkt/20200617_English_v10_dummy_cusr200 	| valid_dl.dataset size: 2016
+INFO : 06-20 04:56 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting train
+INFO : 06-20 04:58 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Train Loss: 0.669044	AUC: 0.503316
+INFO : 06-20 04:58 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Valid Loss: 0.688266	AUC: 0.50356
+INFO : 06-20 04:58 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	KSVectorLoss: 6.48308
+INFO : 06-20 04:58 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	W1: 0.00157825	W2: 8.70747e-06
+INFO : 06-20 04:58 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.503899 at epoch 70
+INFO : 06-20 04:58 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 04:58 2m 40s passed ( - 50m 45s til 03:43) (100epoch 5.0%)
+INFO : 06-20 05:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Train Loss: 0.661515	AUC: 0.514045
+INFO : 06-20 05:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Valid Loss: 0.691845	AUC: 0.50088
+INFO : 06-20 05:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	KSVectorLoss: 6.41653
+INFO : 06-20 05:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	W1: 0.00361384	W2: 3.98626e-05
+INFO : 06-20 05:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.503899 at epoch 70
+INFO : 06-20 05:01 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:01 5m 19s passed ( - 47m 57s til 13:11) (200epoch 10.0%)
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	Train Loss: 0.660071	AUC: 0.521634
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	Valid Loss: 0.693055	AUC: 0.499
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	KSVectorLoss: 6.40384
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	W1: 0.00435057	W2: 5.88446e-05
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.503899 at epoch 70
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| Early stopping.
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| Loading model /code/output/config/20200617_English_v10_dummy_cusr200/checkpoints/20200620-0401/f1_best.model
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| test_dl.dataset size: 2520
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting test
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test Loss: 0.67423	AUC: 0.502108
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test KSV Loss: 6.44747
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	W1: 0.000986787	W2: 3.03426e-06
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	r1: 0.674038
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test AUC(C): 0.503151
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP soft 	 good:bad = 256:211
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP hard 	 nDCG = 0.7951±0.1577
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| The model has 589,219 trainable parameters
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| train_dl.dataset size: 8064
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| valid_dl.dataset size: 2016
+INFO : 06-20 05:04 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting train
+INFO : 06-20 05:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Train Loss: 0.679062	AUC: 0.504393
+INFO : 06-20 05:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Valid Loss: 0.668	AUC: 0.500569
+INFO : 06-20 05:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	KSVectorLoss: 6.40704
+INFO : 06-20 05:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	W1: 0.000925952	W2: 2.70536e-06
+INFO : 06-20 05:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.505635 at epoch 10
+INFO : 06-20 05:07 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:07 2m 40s passed ( - 50m 53s til 00:18) (100epoch 5.0%)
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Train Loss: 0.67304	AUC: 0.510976
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Valid Loss: 0.655362	AUC: 0.50057
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	KSVectorLoss: 6.25076
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	W1: 0.00206873	W2: 1.48273e-05
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.505635 at epoch 10
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| Early stopping.
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| Loading model /code/output/config/20200617_English_v10_dummy_cusr200/checkpoints/20200620-0401/f2_best.model
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| test_dl.dataset size: 2520
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting test
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test Loss: 0.690812	AUC: 0.500777
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test KSV Loss: 6.60875
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	W1: 0.00052617	W2: 4.79083e-07
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	r1: 0.69098
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test AUC(C): 0.495286
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP soft 	 good:bad = 231:236
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP hard 	 nDCG = 0.7802±0.1556
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| The model has 589,219 trainable parameters
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| train_dl.dataset size: 8064
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| valid_dl.dataset size: 2016
+INFO : 06-20 05:10 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting train
+INFO : 06-20 05:13 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Train Loss: 0.671209	AUC: 0.505079
+INFO : 06-20 05:13 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Valid Loss: 0.682415	AUC: 0.495611
+INFO : 06-20 05:13 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	KSVectorLoss: 6.45717
+INFO : 06-20 05:13 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	W1: 0.00140195	W2: 7.04412e-06
+INFO : 06-20 05:13 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.496481 at epoch 10
+INFO : 06-20 05:13 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:13 2m 40s passed ( - 50m 55s til 08:13) (100epoch 5.0%)
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Train Loss: 0.664225	AUC: 0.513882
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Valid Loss: 0.68134	AUC: 0.496162
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	KSVectorLoss: 6.35938
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	W1: 0.00328341	W2: 3.33955e-05
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.496481 at epoch 10
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| Early stopping.
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| Loading model /code/output/config/20200617_English_v10_dummy_cusr200/checkpoints/20200620-0401/f3_best.model
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| test_dl.dataset size: 2520
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting test
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test Loss: 0.690168	AUC: 0.497233
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test KSV Loss: 6.60541
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	W1: 0.000540638	W2: 5.11651e-07
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	r1: 0.690034
+INFO : 06-20 05:16 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test AUC(C): 0.500964
+INFO : 06-20 05:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP soft 	 good:bad = 223:244
+INFO : 06-20 05:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP hard 	 nDCG = 0.7786±0.1553
+INFO : 06-20 05:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| The model has 589,219 trainable parameters
+INFO : 06-20 05:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| train_dl.dataset size: 8064
+INFO : 06-20 05:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| valid_dl.dataset size: 2016
+INFO : 06-20 05:17 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting train
+INFO : 06-20 05:19 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Train Loss: 0.678648	AUC: 0.506578
+INFO : 06-20 05:19 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Valid Loss: 0.666533	AUC: 0.494789
+INFO : 06-20 05:19 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	KSVectorLoss: 6.39324
+INFO : 06-20 05:19 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	W1: 0.000962483	W2: 3.04024e-06
+INFO : 06-20 05:19 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.500032 at epoch 10
+INFO : 06-20 05:19 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:19 2m 40s passed ( - 50m 40s til 00:33) (100epoch 5.0%)
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Train Loss: 0.673012	AUC: 0.513636
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Valid Loss: 0.653367	AUC: 0.496026
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	KSVectorLoss: 6.23361
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	W1: 0.00217117	W2: 1.59383e-05
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| Best AUC 0.500032 at epoch 10
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| Early stopping.
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| Loading model /code/output/config/20200617_English_v10_dummy_cusr200/checkpoints/20200620-0401/f4_best.model
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| test_dl.dataset size: 2520
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting test
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test Loss: 0.689967	AUC: 0.500033
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test KSV Loss: 6.6031
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	W1: 0.000516858	W2: 4.71725e-07
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	r1: 0.689851
+INFO : 06-20 05:22 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test AUC(C): 0.504158
+INFO : 06-20 05:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP soft 	 good:bad = 261:206
+INFO : 06-20 05:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP hard 	 nDCG = 0.7943±0.1531
+INFO : 06-20 05:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| fintrain_dl.dataset size: 10080
+INFO : 06-20 05:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| fintest_dl.dataset size: 2520
+INFO : 06-20 05:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| The model has 589,219 trainable parameters
+INFO : 06-20 05:23 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting train
+INFO : 06-20 05:26 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 100	Train Loss: 0.669789	AUC: 0.506343
+INFO : 06-20 05:26 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:26 3m 16s passed ( - 10m 30s til 09:38) (100epoch 23.8%)
+INFO : 06-20 05:29 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 200	Train Loss: 0.665237	AUC: 0.516134
+INFO : 06-20 05:29 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:29 6m 33s passed ( - 7m 12s til 21:45) (200epoch 47.6%)
+INFO : 06-20 05:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 300	Train Loss: 0.664442	AUC: 0.521311
+INFO : 06-20 05:33 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:33 9m 50s passed ( - 3m 56s til 13:26) (300epoch 71.4%)
+INFO : 06-20 05:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Epoch 400	Train Loss: 0.664153	AUC: 0.52324
+INFO : 06-20 05:36 : ksdkt/20200617_English_v10_dummy_cusr200 	| At 05:36 13m 8s passed ( - 0m 39s til 16:16) (400epoch 95.2%)
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| Starting test
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test Loss: 0.661432	AUC: 0.500462
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test KSV Loss: 6.21151
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	W1: 0.00405514	W2: 5.70832e-05
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	r1: 0.660823
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| 	Test AUC(C): 0.508709
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP soft 	 good:bad = 233:234
+INFO : 06-20 05:37 : ksdkt/20200617_English_v10_dummy_cusr200 	| RP hard 	 nDCG = 0.7908±0.1657

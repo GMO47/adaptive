@@ -1,0 +1,6 @@
+INFO : 06-19 13:03 : ksdkt/20200617_Psyence_v10_dummy_cusr200 	| PyTorch: 1.2.0
+INFO : 06-19 13:03 : ksdkt/20200617_Psyence_v10_dummy_cusr200 	| Using Device: cuda
+INFO : 06-19 13:03 : ksdkt/20200617_Psyence_v10_dummy_cusr200 	| The model has 525,926 trainable parameters
+INFO : 06-19 13:03 : ksdkt/20200617_Psyence_v10_dummy_cusr200 	| train_dl.dataset size: 1024
+INFO : 06-19 13:03 : ksdkt/20200617_Psyence_v10_dummy_cusr200 	| valid_dl.dataset size: 256
+INFO : 06-19 13:03 : ksdkt/20200617_Psyence_v10_dummy_cusr200 	| Starting train

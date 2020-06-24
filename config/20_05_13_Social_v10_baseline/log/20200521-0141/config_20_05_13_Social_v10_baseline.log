@@ -1,0 +1,712 @@
+INFO : 05-21 01:41 : ksdkt/20_05_13_Social_v10_baseline 	| PyTorch: 1.3.0
+INFO : 05-21 01:41 : ksdkt/20_05_13_Social_v10_baseline 	| Using Device: cuda
+INFO : 05-21 01:41 : ksdkt/20_05_13_Social_v10_baseline 	| The model has 544,499 trainable parameters
+INFO : 05-21 01:41 : ksdkt/20_05_13_Social_v10_baseline 	| train_dl.dataset size: 12032
+INFO : 05-21 01:41 : ksdkt/20_05_13_Social_v10_baseline 	| valid_dl.dataset size: 3008
+INFO : 05-21 01:41 : ksdkt/20_05_13_Social_v10_baseline 	| Starting train
+INFO : 05-21 01:46 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Train Loss: 0.663909	AUC: 0.521698
+INFO : 05-21 01:46 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Valid Loss: 0.654907	AUC: 0.523872
+INFO : 05-21 01:46 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	KSVectorLoss: 0.0161012
+INFO : 05-21 01:46 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	W1: 0.00199572	W2: 1.03691e-05
+INFO : 05-21 01:46 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.523872 refreshed and saved!
+INFO : 05-21 01:46 : ksdkt/20_05_13_Social_v10_baseline 	| At 01:46 4m 55s passed ( - 93m 27s til 21:53) (100epoch 5.0%)
+INFO : 05-21 01:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Train Loss: 0.652058	AUC: 0.582021
+INFO : 05-21 01:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Valid Loss: 0.642666	AUC: 0.579175
+INFO : 05-21 01:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	KSVectorLoss: 0.0151839
+INFO : 05-21 01:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	W1: 0.0070486	W2: 9.23954e-05
+INFO : 05-21 01:50 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.579175 refreshed and saved!
+INFO : 05-21 01:50 : ksdkt/20_05_13_Social_v10_baseline 	| At 01:50 9m 50s passed ( - 88m 35s til 04:45) (200epoch 10.0%)
+INFO : 05-21 01:55 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Train Loss: 0.649048	AUC: 0.593023
+INFO : 05-21 01:55 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Valid Loss: 0.639589	AUC: 0.589348
+INFO : 05-21 01:55 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	KSVectorLoss: 0.0149909
+INFO : 05-21 01:55 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	W1: 0.00967631	W2: 0.000167861
+INFO : 05-21 01:55 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.589348 refreshed and saved!
+INFO : 05-21 01:55 : ksdkt/20_05_13_Social_v10_baseline 	| At 01:55 14m 46s passed ( - 83m 40s til 22:42) (300epoch 15.0%)
+INFO : 05-21 02:00 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Train Loss: 0.647672	AUC: 0.597739
+INFO : 05-21 02:00 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Valid Loss: 0.638371	AUC: 0.593511
+INFO : 05-21 02:00 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	KSVectorLoss: 0.0148906
+INFO : 05-21 02:00 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	W1: 0.0109917	W2: 0.000214661
+INFO : 05-21 02:00 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.593511 refreshed and saved!
+INFO : 05-21 02:00 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:00 19m 42s passed ( - 78m 49s til 17:22) (400epoch 20.0%)
+INFO : 05-21 02:05 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Train Loss: 0.646668	AUC: 0.601074
+INFO : 05-21 02:05 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Valid Loss: 0.637535	AUC: 0.596427
+INFO : 05-21 02:05 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	KSVectorLoss: 0.0148194
+INFO : 05-21 02:05 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	W1: 0.0118558	W2: 0.00024794
+INFO : 05-21 02:05 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.596427 refreshed and saved!
+INFO : 05-21 02:05 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:05 24m 37s passed ( - 73m 51s til 11:34) (500epoch 25.0%)
+INFO : 05-21 02:10 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Train Loss: 0.645964	AUC: 0.603366
+INFO : 05-21 02:10 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Valid Loss: 0.636897	AUC: 0.598692
+INFO : 05-21 02:10 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	KSVectorLoss: 0.0147653
+INFO : 05-21 02:10 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	W1: 0.0125524	W2: 0.000275354
+INFO : 05-21 02:10 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.598692 refreshed and saved!
+INFO : 05-21 02:10 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:10 29m 32s passed ( - 68m 56s til 02:31) (600epoch 30.0%)
+INFO : 05-21 02:15 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Train Loss: 0.645292	AUC: 0.605432
+INFO : 05-21 02:15 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Valid Loss: 0.636391	AUC: 0.60043
+INFO : 05-21 02:15 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	KSVectorLoss: 0.0147208
+INFO : 05-21 02:15 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	W1: 0.0132044	W2: 0.000301338
+INFO : 05-21 02:15 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.60043 refreshed and saved!
+INFO : 05-21 02:15 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:15 34m 27s passed ( - 63m 59s til 17:37) (700epoch 35.0%)
+INFO : 05-21 02:20 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Train Loss: 0.644765	AUC: 0.607051
+INFO : 05-21 02:20 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Valid Loss: 0.636002	AUC: 0.601826
+INFO : 05-21 02:20 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	KSVectorLoss: 0.0146867
+INFO : 05-21 02:20 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	W1: 0.0138245	W2: 0.000326494
+INFO : 05-21 02:20 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.601826 refreshed and saved!
+INFO : 05-21 02:20 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:20 39m 23s passed ( - 59m 5s til 11:50) (800epoch 40.0%)
+INFO : 05-21 02:25 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Train Loss: 0.644315	AUC: 0.608309
+INFO : 05-21 02:25 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Valid Loss: 0.635704	AUC: 0.602939
+INFO : 05-21 02:25 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	KSVectorLoss: 0.0146589
+INFO : 05-21 02:25 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	W1: 0.0144256	W2: 0.000351604
+INFO : 05-21 02:25 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.602939 refreshed and saved!
+INFO : 05-21 02:25 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:25 44m 19s passed ( - 54m 10s til 02:57) (900epoch 45.0%)
+INFO : 05-21 02:30 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Train Loss: 0.643914	AUC: 0.609521
+INFO : 05-21 02:30 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Valid Loss: 0.635458	AUC: 0.603821
+INFO : 05-21 02:30 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	KSVectorLoss: 0.0146324
+INFO : 05-21 02:30 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	W1: 0.0149724	W2: 0.000375149
+INFO : 05-21 02:30 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.603821 refreshed and saved!
+INFO : 05-21 02:30 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:30 49m 14s passed ( - 49m 14s til 14:44) (1000epoch 50.0%)
+INFO : 05-21 02:35 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Train Loss: 0.643467	AUC: 0.610783
+INFO : 05-21 02:35 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Valid Loss: 0.63527	AUC: 0.604532
+INFO : 05-21 02:35 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	KSVectorLoss: 0.0146148
+INFO : 05-21 02:35 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	W1: 0.0154517	W2: 0.000396555
+INFO : 05-21 02:35 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.604532 refreshed and saved!
+INFO : 05-21 02:35 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:35 54m 9s passed ( - 44m 18s til 22:04) (1100epoch 55.0%)
+INFO : 05-21 02:40 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Train Loss: 0.64321	AUC: 0.611568
+INFO : 05-21 02:40 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Valid Loss: 0.635101	AUC: 0.605152
+INFO : 05-21 02:40 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	KSVectorLoss: 0.0145961
+INFO : 05-21 02:40 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	W1: 0.0158786	W2: 0.000416436
+INFO : 05-21 02:40 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.605152 refreshed and saved!
+INFO : 05-21 02:40 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:40 59m 5s passed ( - 39m 23s til 16:46) (1200epoch 60.0%)
+INFO : 05-21 02:45 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Train Loss: 0.642846	AUC: 0.612553
+INFO : 05-21 02:45 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Valid Loss: 0.634961	AUC: 0.605702
+INFO : 05-21 02:45 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	KSVectorLoss: 0.0145794
+INFO : 05-21 02:45 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	W1: 0.0162533	W2: 0.000434803
+INFO : 05-21 02:45 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.605702 refreshed and saved!
+INFO : 05-21 02:45 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:45 64m 0s passed ( - 34m 28s til 04:51) (1300epoch 65.0%)
+INFO : 05-21 02:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Train Loss: 0.642583	AUC: 0.613329
+INFO : 05-21 02:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Valid Loss: 0.634835	AUC: 0.606184
+INFO : 05-21 02:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	KSVectorLoss: 0.014565
+INFO : 05-21 02:50 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	W1: 0.0165895	W2: 0.000452267
+INFO : 05-21 02:50 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.606184 refreshed and saved!
+INFO : 05-21 02:50 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:50 68m 55s passed ( - 29m 32s til 11:43) (1400epoch 70.0%)
+INFO : 05-21 02:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Train Loss: 0.642302	AUC: 0.614165
+INFO : 05-21 02:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Valid Loss: 0.634732	AUC: 0.606607
+INFO : 05-21 02:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	KSVectorLoss: 0.0145521
+INFO : 05-21 02:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	W1: 0.0168942	W2: 0.000468943
+INFO : 05-21 02:54 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.606607 refreshed and saved!
+INFO : 05-21 02:54 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:54 73m 50s passed ( - 24m 36s til 01:09) (1500epoch 75.0%)
+INFO : 05-21 02:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Train Loss: 0.642047	AUC: 0.614794
+INFO : 05-21 02:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Valid Loss: 0.634637	AUC: 0.60696
+INFO : 05-21 02:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	KSVectorLoss: 0.01454
+INFO : 05-21 02:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	W1: 0.0171806	W2: 0.00048563
+INFO : 05-21 02:59 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.60696 refreshed and saved!
+INFO : 05-21 02:59 : ksdkt/20_05_13_Social_v10_baseline 	| At 02:59 78m 47s passed ( - 19m 41s til 21:44) (1600epoch 80.0%)
+INFO : 05-21 03:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Train Loss: 0.641806	AUC: 0.615447
+INFO : 05-21 03:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Valid Loss: 0.634579	AUC: 0.607253
+INFO : 05-21 03:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	KSVectorLoss: 0.0145345
+INFO : 05-21 03:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	W1: 0.017432	W2: 0.000501419
+INFO : 05-21 03:04 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.607253 refreshed and saved!
+INFO : 05-21 03:04 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:04 83m 42s passed ( - 14m 46s til 10:07) (1700epoch 85.0%)
+INFO : 05-21 03:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Train Loss: 0.641558	AUC: 0.616165
+INFO : 05-21 03:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Valid Loss: 0.634505	AUC: 0.607492
+INFO : 05-21 03:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	KSVectorLoss: 0.0145246
+INFO : 05-21 03:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	W1: 0.0176782	W2: 0.000517738
+INFO : 05-21 03:09 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.607492 refreshed and saved!
+INFO : 05-21 03:09 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:09 88m 37s passed ( - 9m 50s til 23:53) (1800epoch 90.0%)
+INFO : 05-21 03:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Train Loss: 0.641298	AUC: 0.616851
+INFO : 05-21 03:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Valid Loss: 0.634465	AUC: 0.607674
+INFO : 05-21 03:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	KSVectorLoss: 0.0145159
+INFO : 05-21 03:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	W1: 0.0179153	W2: 0.00053449
+INFO : 05-21 03:14 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.607674 refreshed and saved!
+INFO : 05-21 03:14 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:14 93m 33s passed ( - 4m 55s til 13:58) (1900epoch 95.0%)
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Train Loss: 0.64103	AUC: 0.617499
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Valid Loss: 0.634438	AUC: 0.607812
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	KSVectorLoss: 0.0145073
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	W1: 0.0181399	W2: 0.000551476
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.607812 refreshed and saved!
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:19 98m 29s passed ( - 0m 0s til 03:19) (2000epoch 100.0%)
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| Loading model /code/output/config/20_05_13_Social_v10_baseline/checkpoints/20200521-0141/f0_best.model
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| test_dl.dataset size: 3760
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| Starting test
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test Loss: 0.649757	AUC: 0.616887
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test KSV AUC: 0.986057
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	W1: 0.0182338	W2: 0.000553408
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| RP soft 	 good:bad = 170:89
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| RP hard 	 nDCG = 0.8664±0.1697
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| The model has 544,499 trainable parameters
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| train_dl.dataset size: 12032
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| valid_dl.dataset size: 3008
+INFO : 05-21 03:19 : ksdkt/20_05_13_Social_v10_baseline 	| Starting train
+INFO : 05-21 03:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Train Loss: 0.665149	AUC: 0.508031
+INFO : 05-21 03:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Valid Loss: 0.655762	AUC: 0.508442
+INFO : 05-21 03:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	KSVectorLoss: 0.0163177
+INFO : 05-21 03:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	W1: 0.00153571	W2: 7.59124e-06
+INFO : 05-21 03:24 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.508442 refreshed and saved!
+INFO : 05-21 03:24 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:24 4m 55s passed ( - 93m 25s til 05:11) (100epoch 5.0%)
+INFO : 05-21 03:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Train Loss: 0.660564	AUC: 0.530411
+INFO : 05-21 03:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Valid Loss: 0.649551	AUC: 0.533033
+INFO : 05-21 03:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	KSVectorLoss: 0.0160216
+INFO : 05-21 03:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	W1: 0.00391799	W2: 3.97395e-05
+INFO : 05-21 03:29 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.533033 refreshed and saved!
+INFO : 05-21 03:29 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:29 9m 51s passed ( - 88m 41s til 07:34) (200epoch 10.0%)
+INFO : 05-21 03:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Train Loss: 0.654398	AUC: 0.570845
+INFO : 05-21 03:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Valid Loss: 0.638662	AUC: 0.590951
+INFO : 05-21 03:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	KSVectorLoss: 0.0153104
+INFO : 05-21 03:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	W1: 0.00661212	W2: 8.4684e-05
+INFO : 05-21 03:34 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.590951 refreshed and saved!
+INFO : 05-21 03:34 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:34 14m 46s passed ( - 83m 46s til 08:02) (300epoch 15.0%)
+INFO : 05-21 03:39 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Train Loss: 0.650706	AUC: 0.585702
+INFO : 05-21 03:39 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Valid Loss: 0.632465	AUC: 0.611176
+INFO : 05-21 03:39 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	KSVectorLoss: 0.0150183
+INFO : 05-21 03:39 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	W1: 0.0087763	W2: 0.000141087
+INFO : 05-21 03:39 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.611176 refreshed and saved!
+INFO : 05-21 03:39 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:39 19m 41s passed ( - 78m 46s til 10:25) (400epoch 20.0%)
+INFO : 05-21 03:44 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Train Loss: 0.649265	AUC: 0.591252
+INFO : 05-21 03:44 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Valid Loss: 0.630269	AUC: 0.617329
+INFO : 05-21 03:44 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	KSVectorLoss: 0.0148905
+INFO : 05-21 03:44 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	W1: 0.00992189	W2: 0.000177492
+INFO : 05-21 03:44 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.617329 refreshed and saved!
+INFO : 05-21 03:44 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:44 24m 36s passed ( - 73m 48s til 19:07) (500epoch 25.0%)
+INFO : 05-21 03:49 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Train Loss: 0.648254	AUC: 0.594798
+INFO : 05-21 03:49 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Valid Loss: 0.628819	AUC: 0.621098
+INFO : 05-21 03:49 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	KSVectorLoss: 0.0148
+INFO : 05-21 03:49 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	W1: 0.0107516	W2: 0.000205802
+INFO : 05-21 03:49 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.621098 refreshed and saved!
+INFO : 05-21 03:49 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:49 29m 32s passed ( - 68m 55s til 16:56) (600epoch 30.0%)
+INFO : 05-21 03:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Train Loss: 0.647425	AUC: 0.597681
+INFO : 05-21 03:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Valid Loss: 0.627776	AUC: 0.623708
+INFO : 05-21 03:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	KSVectorLoss: 0.0147339
+INFO : 05-21 03:54 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	W1: 0.0114607	W2: 0.000231237
+INFO : 05-21 03:54 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.623708 refreshed and saved!
+INFO : 05-21 03:54 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:54 34m 27s passed ( - 63m 59s til 07:43) (700epoch 35.0%)
+INFO : 05-21 03:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Train Loss: 0.646857	AUC: 0.599547
+INFO : 05-21 03:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Valid Loss: 0.626989	AUC: 0.625671
+INFO : 05-21 03:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	KSVectorLoss: 0.0146837
+INFO : 05-21 03:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	W1: 0.0121054	W2: 0.00025551
+INFO : 05-21 03:59 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.625671 refreshed and saved!
+INFO : 05-21 03:59 : ksdkt/20_05_13_Social_v10_baseline 	| At 03:59 39m 23s passed ( - 59m 4s til 17:45) (800epoch 40.0%)
+INFO : 05-21 04:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Train Loss: 0.646333	AUC: 0.601238
+INFO : 05-21 04:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Valid Loss: 0.626373	AUC: 0.627122
+INFO : 05-21 04:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	KSVectorLoss: 0.0146429
+INFO : 05-21 04:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	W1: 0.0127166	W2: 0.000279808
+INFO : 05-21 04:04 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.627122 refreshed and saved!
+INFO : 05-21 04:04 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:04 44m 18s passed ( - 54m 9s til 04:46) (900epoch 45.0%)
+INFO : 05-21 04:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Train Loss: 0.645909	AUC: 0.602622
+INFO : 05-21 04:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Valid Loss: 0.625899	AUC: 0.628216
+INFO : 05-21 04:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	KSVectorLoss: 0.0146121
+INFO : 05-21 04:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	W1: 0.0132622	W2: 0.000302617
+INFO : 05-21 04:09 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.628216 refreshed and saved!
+INFO : 05-21 04:09 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:09 49m 14s passed ( - 49m 14s til 21:45) (1000epoch 50.0%)
+INFO : 05-21 04:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Train Loss: 0.6455	AUC: 0.603812
+INFO : 05-21 04:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Valid Loss: 0.625523	AUC: 0.629042
+INFO : 05-21 04:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	KSVectorLoss: 0.0145864
+INFO : 05-21 04:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	W1: 0.0137473	W2: 0.000323862
+INFO : 05-21 04:14 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.629042 refreshed and saved!
+INFO : 05-21 04:14 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:14 54m 11s passed ( - 44m 20s til 11:52) (1100epoch 55.0%)
+INFO : 05-21 04:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Train Loss: 0.645228	AUC: 0.60461
+INFO : 05-21 04:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Valid Loss: 0.625235	AUC: 0.629719
+INFO : 05-21 04:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	KSVectorLoss: 0.0145702
+INFO : 05-21 04:19 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	W1: 0.0141541	W2: 0.00034237
+INFO : 05-21 04:19 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.629719 refreshed and saved!
+INFO : 05-21 04:19 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:19 59m 10s passed ( - 39m 26s til 20:47) (1200epoch 60.0%)
+INFO : 05-21 04:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Train Loss: 0.644942	AUC: 0.605557
+INFO : 05-21 04:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Valid Loss: 0.624988	AUC: 0.630293
+INFO : 05-21 04:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	KSVectorLoss: 0.0145556
+INFO : 05-21 04:24 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	W1: 0.0145029	W2: 0.000358916
+INFO : 05-21 04:24 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.630293 refreshed and saved!
+INFO : 05-21 04:24 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:24 64m 8s passed ( - 34m 32s til 05:27) (1300epoch 65.0%)
+INFO : 05-21 04:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Train Loss: 0.644654	AUC: 0.606224
+INFO : 05-21 04:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Valid Loss: 0.624759	AUC: 0.630766
+INFO : 05-21 04:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	KSVectorLoss: 0.0145408
+INFO : 05-21 04:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	W1: 0.0148119	W2: 0.000374196
+INFO : 05-21 04:29 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.630766 refreshed and saved!
+INFO : 05-21 04:29 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:29 69m 4s passed ( - 29m 36s til 05:48) (1400epoch 70.0%)
+INFO : 05-21 04:33 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Train Loss: 0.644404	AUC: 0.607094
+INFO : 05-21 04:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Valid Loss: 0.624543	AUC: 0.631199
+INFO : 05-21 04:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	KSVectorLoss: 0.0145255
+INFO : 05-21 04:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	W1: 0.0150927	W2: 0.000388658
+INFO : 05-21 04:34 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.631199 refreshed and saved!
+INFO : 05-21 04:34 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:34 74m 0s passed ( - 24m 40s til 07:54) (1500epoch 75.0%)
+INFO : 05-21 04:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Train Loss: 0.644193	AUC: 0.607647
+INFO : 05-21 04:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Valid Loss: 0.624372	AUC: 0.631561
+INFO : 05-21 04:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	KSVectorLoss: 0.0145152
+INFO : 05-21 04:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	W1: 0.0153422	W2: 0.000402036
+INFO : 05-21 04:38 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.631561 refreshed and saved!
+INFO : 05-21 04:38 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:38 78m 57s passed ( - 19m 44s til 12:08) (1600epoch 80.0%)
+INFO : 05-21 04:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Train Loss: 0.644002	AUC: 0.608263
+INFO : 05-21 04:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Valid Loss: 0.624222	AUC: 0.631882
+INFO : 05-21 04:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	KSVectorLoss: 0.0145051
+INFO : 05-21 04:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	W1: 0.015583	W2: 0.000415568
+INFO : 05-21 04:43 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.631882 refreshed and saved!
+INFO : 05-21 04:43 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:43 83m 54s passed ( - 14m 48s til 15:04) (1700epoch 85.0%)
+INFO : 05-21 04:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Train Loss: 0.643703	AUC: 0.609108
+INFO : 05-21 04:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Valid Loss: 0.624085	AUC: 0.63214
+INFO : 05-21 04:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	KSVectorLoss: 0.0144949
+INFO : 05-21 04:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	W1: 0.0158114	W2: 0.000428953
+INFO : 05-21 04:48 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.63214 refreshed and saved!
+INFO : 05-21 04:48 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:48 88m 50s passed ( - 9m 52s til 10:15) (1800epoch 90.0%)
+INFO : 05-21 04:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Train Loss: 0.643456	AUC: 0.609781
+INFO : 05-21 04:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Valid Loss: 0.623967	AUC: 0.632353
+INFO : 05-21 04:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	KSVectorLoss: 0.0144861
+INFO : 05-21 04:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	W1: 0.0160295	W2: 0.000442342
+INFO : 05-21 04:53 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.632353 refreshed and saved!
+INFO : 05-21 04:53 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:53 93m 46s passed ( - 4m 56s til 08:22) (1900epoch 95.0%)
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Train Loss: 0.64319	AUC: 0.610593
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Valid Loss: 0.623879	AUC: 0.632518
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	KSVectorLoss: 0.0144792
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	W1: 0.0162538	W2: 0.000456632
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.632518 refreshed and saved!
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| At 04:58 98m 44s passed ( - 0m 0s til 04:58) (2000epoch 100.0%)
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| Loading model /code/output/config/20_05_13_Social_v10_baseline/checkpoints/20200521-0141/f1_best.model
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| test_dl.dataset size: 3760
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| Starting test
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test Loss: 0.649751	AUC: 0.617035
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test KSV AUC: 0.986013
+INFO : 05-21 04:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	W1: 0.0165743	W2: 0.000467994
+INFO : 05-21 04:59 : ksdkt/20_05_13_Social_v10_baseline 	| RP soft 	 good:bad = 152:107
+INFO : 05-21 04:59 : ksdkt/20_05_13_Social_v10_baseline 	| RP hard 	 nDCG = 0.8407±0.1766
+INFO : 05-21 04:59 : ksdkt/20_05_13_Social_v10_baseline 	| The model has 544,499 trainable parameters
+INFO : 05-21 04:59 : ksdkt/20_05_13_Social_v10_baseline 	| train_dl.dataset size: 12032
+INFO : 05-21 04:59 : ksdkt/20_05_13_Social_v10_baseline 	| valid_dl.dataset size: 3008
+INFO : 05-21 04:59 : ksdkt/20_05_13_Social_v10_baseline 	| Starting train
+INFO : 05-21 05:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Train Loss: 0.663459	AUC: 0.515973
+INFO : 05-21 05:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Valid Loss: 0.664935	AUC: 0.510124
+INFO : 05-21 05:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	KSVectorLoss: 0.0162413
+INFO : 05-21 05:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	W1: 0.00141414	W2: 6.11099e-06
+INFO : 05-21 05:04 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.510124 refreshed and saved!
+INFO : 05-21 05:04 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:04 4m 56s passed ( - 94m 2s til 07:20) (100epoch 5.0%)
+INFO : 05-21 05:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Train Loss: 0.652483	AUC: 0.569912
+INFO : 05-21 05:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Valid Loss: 0.659013	AUC: 0.543201
+INFO : 05-21 05:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	KSVectorLoss: 0.0155621
+INFO : 05-21 05:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	W1: 0.00500766	W2: 5.17313e-05
+INFO : 05-21 05:09 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.543201 refreshed and saved!
+INFO : 05-21 05:09 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:09 9m 54s passed ( - 89m 11s til 00:17) (200epoch 10.0%)
+INFO : 05-21 05:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Train Loss: 0.645379	AUC: 0.597716
+INFO : 05-21 05:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Valid Loss: 0.655131	AUC: 0.566456
+INFO : 05-21 05:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	KSVectorLoss: 0.0151762
+INFO : 05-21 05:14 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	W1: 0.0089162	W2: 0.000141166
+INFO : 05-21 05:14 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.566456 refreshed and saved!
+INFO : 05-21 05:14 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:14 14m 51s passed ( - 84m 10s til 17:18) (300epoch 15.0%)
+INFO : 05-21 05:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Train Loss: 0.643265	AUC: 0.604747
+INFO : 05-21 05:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Valid Loss: 0.654018	AUC: 0.571821
+INFO : 05-21 05:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	KSVectorLoss: 0.0150685
+INFO : 05-21 05:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	W1: 0.0108528	W2: 0.000204127
+INFO : 05-21 05:18 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.571821 refreshed and saved!
+INFO : 05-21 05:18 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:18 19m 47s passed ( - 79m 8s til 05:14) (400epoch 20.0%)
+INFO : 05-21 05:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Train Loss: 0.642086	AUC: 0.608498
+INFO : 05-21 05:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Valid Loss: 0.653415	AUC: 0.574726
+INFO : 05-21 05:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	KSVectorLoss: 0.0150079
+INFO : 05-21 05:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	W1: 0.0119522	W2: 0.000245811
+INFO : 05-21 05:23 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.574726 refreshed and saved!
+INFO : 05-21 05:23 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:23 24m 42s passed ( - 74m 7s til 17:42) (500epoch 25.0%)
+INFO : 05-21 05:28 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Train Loss: 0.641137	AUC: 0.611303
+INFO : 05-21 05:28 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Valid Loss: 0.653022	AUC: 0.576705
+INFO : 05-21 05:28 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	KSVectorLoss: 0.0149685
+INFO : 05-21 05:28 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	W1: 0.0127463	W2: 0.000278956
+INFO : 05-21 05:28 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.576705 refreshed and saved!
+INFO : 05-21 05:28 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:28 29m 38s passed ( - 69m 8s til 01:12) (600epoch 30.0%)
+INFO : 05-21 05:33 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Train Loss: 0.640484	AUC: 0.613221
+INFO : 05-21 05:33 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Valid Loss: 0.652764	AUC: 0.578137
+INFO : 05-21 05:33 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	KSVectorLoss: 0.0149393
+INFO : 05-21 05:33 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	W1: 0.0134403	W2: 0.000309885
+INFO : 05-21 05:33 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.578137 refreshed and saved!
+INFO : 05-21 05:33 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:33 34m 34s passed ( - 64m 12s til 00:42) (700epoch 35.0%)
+INFO : 05-21 05:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Train Loss: 0.639944	AUC: 0.614894
+INFO : 05-21 05:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Valid Loss: 0.652591	AUC: 0.579173
+INFO : 05-21 05:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	KSVectorLoss: 0.0149182
+INFO : 05-21 05:38 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	W1: 0.0140836	W2: 0.000340024
+INFO : 05-21 05:38 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.579173 refreshed and saved!
+INFO : 05-21 05:38 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:38 39m 29s passed ( - 59m 14s til 05:36) (800epoch 40.0%)
+INFO : 05-21 05:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Train Loss: 0.639434	AUC: 0.616325
+INFO : 05-21 05:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Valid Loss: 0.652471	AUC: 0.579965
+INFO : 05-21 05:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	KSVectorLoss: 0.0149005
+INFO : 05-21 05:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	W1: 0.0146653	W2: 0.000368629
+INFO : 05-21 05:43 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.579965 refreshed and saved!
+INFO : 05-21 05:43 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:43 44m 25s passed ( - 54m 18s til 06:27) (900epoch 45.0%)
+INFO : 05-21 05:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Train Loss: 0.639107	AUC: 0.617201
+INFO : 05-21 05:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Valid Loss: 0.652381	AUC: 0.580619
+INFO : 05-21 05:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	KSVectorLoss: 0.0148846
+INFO : 05-21 05:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	W1: 0.0151888	W2: 0.000395369
+INFO : 05-21 05:48 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.580619 refreshed and saved!
+INFO : 05-21 05:48 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:48 49m 21s passed ( - 49m 21s til 20:58) (1000epoch 50.0%)
+INFO : 05-21 05:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Train Loss: 0.638677	AUC: 0.618325
+INFO : 05-21 05:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Valid Loss: 0.652321	AUC: 0.581149
+INFO : 05-21 05:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	KSVectorLoss: 0.0148708
+INFO : 05-21 05:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	W1: 0.0156547	W2: 0.000420094
+INFO : 05-21 05:53 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.581149 refreshed and saved!
+INFO : 05-21 05:53 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:53 54m 17s passed ( - 44m 25s til 20:50) (1100epoch 55.0%)
+INFO : 05-21 05:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Train Loss: 0.638425	AUC: 0.619052
+INFO : 05-21 05:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Valid Loss: 0.652272	AUC: 0.581582
+INFO : 05-21 05:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	KSVectorLoss: 0.0148595
+INFO : 05-21 05:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	W1: 0.0160724	W2: 0.000442937
+INFO : 05-21 05:58 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.581582 refreshed and saved!
+INFO : 05-21 05:58 : ksdkt/20_05_13_Social_v10_baseline 	| At 05:58 59m 13s passed ( - 39m 29s til 10:14) (1200epoch 60.0%)
+INFO : 05-21 06:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Train Loss: 0.638122	AUC: 0.619822
+INFO : 05-21 06:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Valid Loss: 0.652228	AUC: 0.581957
+INFO : 05-21 06:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	KSVectorLoss: 0.0148513
+INFO : 05-21 06:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	W1: 0.016457	W2: 0.000464797
+INFO : 05-21 06:03 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.581957 refreshed and saved!
+INFO : 05-21 06:03 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:03 64m 9s passed ( - 34m 32s til 22:06) (1300epoch 65.0%)
+INFO : 05-21 06:08 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Train Loss: 0.637794	AUC: 0.620709
+INFO : 05-21 06:08 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Valid Loss: 0.652219	AUC: 0.582282
+INFO : 05-21 06:08 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	KSVectorLoss: 0.0148386
+INFO : 05-21 06:08 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	W1: 0.0168115	W2: 0.000485625
+INFO : 05-21 06:08 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.582282 refreshed and saved!
+INFO : 05-21 06:08 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:08 69m 5s passed ( - 29m 36s til 17:54) (1400epoch 70.0%)
+INFO : 05-21 06:13 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Train Loss: 0.637567	AUC: 0.621275
+INFO : 05-21 06:13 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Valid Loss: 0.652199	AUC: 0.582573
+INFO : 05-21 06:13 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	KSVectorLoss: 0.0148303
+INFO : 05-21 06:13 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	W1: 0.0171398	W2: 0.000505659
+INFO : 05-21 06:13 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.582573 refreshed and saved!
+INFO : 05-21 06:13 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:13 74m 0s passed ( - 24m 40s til 11:19) (1500epoch 75.0%)
+INFO : 05-21 06:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Train Loss: 0.637301	AUC: 0.621978
+INFO : 05-21 06:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Valid Loss: 0.652179	AUC: 0.582839
+INFO : 05-21 06:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	KSVectorLoss: 0.0148247
+INFO : 05-21 06:18 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	W1: 0.0174309	W2: 0.000524421
+INFO : 05-21 06:18 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.582839 refreshed and saved!
+INFO : 05-21 06:18 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:18 78m 56s passed ( - 19m 44s til 10:47) (1600epoch 80.0%)
+INFO : 05-21 06:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Train Loss: 0.636984	AUC: 0.622724
+INFO : 05-21 06:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Valid Loss: 0.652193	AUC: 0.583085
+INFO : 05-21 06:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	KSVectorLoss: 0.0148115
+INFO : 05-21 06:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	W1: 0.0177188	W2: 0.000543529
+INFO : 05-21 06:23 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.583085 refreshed and saved!
+INFO : 05-21 06:23 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:23 83m 52s passed ( - 14m 48s til 07:30) (1700epoch 85.0%)
+INFO : 05-21 06:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Train Loss: 0.636701	AUC: 0.623434
+INFO : 05-21 06:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Valid Loss: 0.652189	AUC: 0.583286
+INFO : 05-21 06:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	KSVectorLoss: 0.0148043
+INFO : 05-21 06:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	W1: 0.0179891	W2: 0.00056219
+INFO : 05-21 06:27 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.583286 refreshed and saved!
+INFO : 05-21 06:27 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:27 88m 47s passed ( - 9m 51s til 06:16) (1800epoch 90.0%)
+INFO : 05-21 06:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Train Loss: 0.636497	AUC: 0.623942
+INFO : 05-21 06:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Valid Loss: 0.652197	AUC: 0.583476
+INFO : 05-21 06:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	KSVectorLoss: 0.0147962
+INFO : 05-21 06:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	W1: 0.0182444	W2: 0.000580688
+INFO : 05-21 06:32 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.583476 refreshed and saved!
+INFO : 05-21 06:32 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:32 93m 44s passed ( - 4m 56s til 07:18) (1900epoch 95.0%)
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Train Loss: 0.636232	AUC: 0.624618
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Valid Loss: 0.6522	AUC: 0.583638
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	KSVectorLoss: 0.0147929
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	W1: 0.0184792	W2: 0.000598546
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.583638 refreshed and saved!
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:37 98m 39s passed ( - 0m 0s til 06:37) (2000epoch 100.0%)
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| Loading model /code/output/config/20_05_13_Social_v10_baseline/checkpoints/20200521-0141/f2_best.model
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| test_dl.dataset size: 3760
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| Starting test
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test Loss: 0.649545	AUC: 0.617294
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test KSV AUC: 0.986116
+INFO : 05-21 06:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	W1: 0.0182618	W2: 0.000588535
+INFO : 05-21 06:38 : ksdkt/20_05_13_Social_v10_baseline 	| RP soft 	 good:bad = 155:104
+INFO : 05-21 06:38 : ksdkt/20_05_13_Social_v10_baseline 	| RP hard 	 nDCG = 0.8455±0.1722
+INFO : 05-21 06:38 : ksdkt/20_05_13_Social_v10_baseline 	| The model has 544,499 trainable parameters
+INFO : 05-21 06:38 : ksdkt/20_05_13_Social_v10_baseline 	| train_dl.dataset size: 12032
+INFO : 05-21 06:38 : ksdkt/20_05_13_Social_v10_baseline 	| valid_dl.dataset size: 3008
+INFO : 05-21 06:38 : ksdkt/20_05_13_Social_v10_baseline 	| Starting train
+INFO : 05-21 06:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Train Loss: 0.654625	AUC: 0.526259
+INFO : 05-21 06:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Valid Loss: 0.683103	AUC: 0.534545
+INFO : 05-21 06:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	KSVectorLoss: 0.0164694
+INFO : 05-21 06:43 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	W1: 0.00281417	W2: 1.84449e-05
+INFO : 05-21 06:43 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.534545 refreshed and saved!
+INFO : 05-21 06:43 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:43 4m 57s passed ( - 94m 11s til 04:12) (100epoch 5.0%)
+INFO : 05-21 06:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Train Loss: 0.643829	AUC: 0.57757
+INFO : 05-21 06:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Valid Loss: 0.67168	AUC: 0.590545
+INFO : 05-21 06:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	KSVectorLoss: 0.0156836
+INFO : 05-21 06:48 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	W1: 0.00827705	W2: 0.000123314
+INFO : 05-21 06:48 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.590545 refreshed and saved!
+INFO : 05-21 06:48 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:48 9m 54s passed ( - 89m 12s til 20:28) (200epoch 10.0%)
+INFO : 05-21 06:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Train Loss: 0.640935	AUC: 0.588591
+INFO : 05-21 06:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Valid Loss: 0.669768	AUC: 0.599144
+INFO : 05-21 06:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	KSVectorLoss: 0.0155425
+INFO : 05-21 06:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	W1: 0.0101833	W2: 0.000183001
+INFO : 05-21 06:53 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.599144 refreshed and saved!
+INFO : 05-21 06:53 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:53 14m 51s passed ( - 84m 14s til 17:24) (300epoch 15.0%)
+INFO : 05-21 06:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Train Loss: 0.639572	AUC: 0.593546
+INFO : 05-21 06:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Valid Loss: 0.668519	AUC: 0.603235
+INFO : 05-21 06:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	KSVectorLoss: 0.0154619
+INFO : 05-21 06:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	W1: 0.0113632	W2: 0.000225288
+INFO : 05-21 06:58 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.603235 refreshed and saved!
+INFO : 05-21 06:58 : ksdkt/20_05_13_Social_v10_baseline 	| At 06:58 19m 50s passed ( - 79m 21s til 22:54) (400epoch 20.0%)
+INFO : 05-21 07:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Train Loss: 0.638632	AUC: 0.596813
+INFO : 05-21 07:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Valid Loss: 0.667622	AUC: 0.60592
+INFO : 05-21 07:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	KSVectorLoss: 0.0154036
+INFO : 05-21 07:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	W1: 0.012255	W2: 0.00025945
+INFO : 05-21 07:03 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.60592 refreshed and saved!
+INFO : 05-21 07:03 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:03 24m 47s passed ( - 74m 22s til 02:43) (500epoch 25.0%)
+INFO : 05-21 07:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Train Loss: 0.637948	AUC: 0.599085
+INFO : 05-21 07:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Valid Loss: 0.666971	AUC: 0.607742
+INFO : 05-21 07:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	KSVectorLoss: 0.0153635
+INFO : 05-21 07:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	W1: 0.0130352	W2: 0.000290803
+INFO : 05-21 07:07 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.607742 refreshed and saved!
+INFO : 05-21 07:07 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:07 29m 44s passed ( - 69m 24s til 10:28) (600epoch 30.0%)
+INFO : 05-21 07:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Train Loss: 0.637434	AUC: 0.600901
+INFO : 05-21 07:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Valid Loss: 0.666477	AUC: 0.609001
+INFO : 05-21 07:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	KSVectorLoss: 0.0153339
+INFO : 05-21 07:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	W1: 0.0137519	W2: 0.00032102
+INFO : 05-21 07:12 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.609001 refreshed and saved!
+INFO : 05-21 07:12 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:12 34m 42s passed ( - 64m 26s til 03:48) (700epoch 35.0%)
+INFO : 05-21 07:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Train Loss: 0.637017	AUC: 0.602166
+INFO : 05-21 07:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Valid Loss: 0.666104	AUC: 0.609933
+INFO : 05-21 07:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	KSVectorLoss: 0.0153119
+INFO : 05-21 07:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	W1: 0.0143805	W2: 0.00034891
+INFO : 05-21 07:17 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.609933 refreshed and saved!
+INFO : 05-21 07:17 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:17 39m 40s passed ( - 59m 30s til 23:22) (800epoch 40.0%)
+INFO : 05-21 07:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Train Loss: 0.636591	AUC: 0.603512
+INFO : 05-21 07:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Valid Loss: 0.665802	AUC: 0.610667
+INFO : 05-21 07:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	KSVectorLoss: 0.0152951
+INFO : 05-21 07:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	W1: 0.0148955	W2: 0.000372888
+INFO : 05-21 07:22 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.610667 refreshed and saved!
+INFO : 05-21 07:22 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:22 44m 37s passed ( - 54m 32s til 08:03) (900epoch 45.0%)
+INFO : 05-21 07:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Train Loss: 0.636265	AUC: 0.604541
+INFO : 05-21 07:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Valid Loss: 0.665526	AUC: 0.611292
+INFO : 05-21 07:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	KSVectorLoss: 0.0152786
+INFO : 05-21 07:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	W1: 0.0153077	W2: 0.000393006
+INFO : 05-21 07:27 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.611292 refreshed and saved!
+INFO : 05-21 07:27 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:27 49m 33s passed ( - 49m 33s til 07:10) (1000epoch 50.0%)
+INFO : 05-21 07:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Train Loss: 0.635926	AUC: 0.605621
+INFO : 05-21 07:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Valid Loss: 0.665248	AUC: 0.611799
+INFO : 05-21 07:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	KSVectorLoss: 0.0152679
+INFO : 05-21 07:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	W1: 0.0156259	W2: 0.000409426
+INFO : 05-21 07:32 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.611799 refreshed and saved!
+INFO : 05-21 07:32 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:32 54m 31s passed ( - 44m 36s til 20:20) (1100epoch 55.0%)
+INFO : 05-21 07:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Train Loss: 0.635652	AUC: 0.606425
+INFO : 05-21 07:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Valid Loss: 0.665014	AUC: 0.612358
+INFO : 05-21 07:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	KSVectorLoss: 0.0152527
+INFO : 05-21 07:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	W1: 0.0158855	W2: 0.000423378
+INFO : 05-21 07:37 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.612358 refreshed and saved!
+INFO : 05-21 07:37 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:37 59m 28s passed ( - 39m 38s til 03:52) (1200epoch 60.0%)
+INFO : 05-21 07:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Train Loss: 0.635286	AUC: 0.607621
+INFO : 05-21 07:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Valid Loss: 0.664785	AUC: 0.612866
+INFO : 05-21 07:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	KSVectorLoss: 0.0152405
+INFO : 05-21 07:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	W1: 0.016084	W2: 0.000434739
+INFO : 05-21 07:42 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.612866 refreshed and saved!
+INFO : 05-21 07:42 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:42 64m 25s passed ( - 34m 41s til 00:03) (1300epoch 65.0%)
+INFO : 05-21 07:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Train Loss: 0.635112	AUC: 0.608104
+INFO : 05-21 07:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Valid Loss: 0.664537	AUC: 0.613324
+INFO : 05-21 07:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	KSVectorLoss: 0.0152312
+INFO : 05-21 07:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	W1: 0.0162503	W2: 0.000444966
+INFO : 05-21 07:47 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.613324 refreshed and saved!
+INFO : 05-21 07:47 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:47 69m 21s passed ( - 29m 43s til 18:28) (1400epoch 70.0%)
+INFO : 05-21 07:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Train Loss: 0.634782	AUC: 0.609103
+INFO : 05-21 07:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Valid Loss: 0.66431	AUC: 0.613757
+INFO : 05-21 07:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	KSVectorLoss: 0.0152213
+INFO : 05-21 07:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	W1: 0.0163852	W2: 0.000453928
+INFO : 05-21 07:52 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.613757 refreshed and saved!
+INFO : 05-21 07:52 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:52 74m 18s passed ( - 24m 46s til 13:13) (1500epoch 75.0%)
+INFO : 05-21 07:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Train Loss: 0.634497	AUC: 0.60998
+INFO : 05-21 07:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Valid Loss: 0.6641	AUC: 0.614153
+INFO : 05-21 07:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	KSVectorLoss: 0.0152127
+INFO : 05-21 07:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	W1: 0.0165162	W2: 0.000463124
+INFO : 05-21 07:57 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.614153 refreshed and saved!
+INFO : 05-21 07:57 : ksdkt/20_05_13_Social_v10_baseline 	| At 07:57 79m 15s passed ( - 19m 48s til 03:52) (1600epoch 80.0%)
+INFO : 05-21 08:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Train Loss: 0.634201	AUC: 0.610904
+INFO : 05-21 08:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Valid Loss: 0.663924	AUC: 0.614482
+INFO : 05-21 08:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	KSVectorLoss: 0.0152039
+INFO : 05-21 08:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	W1: 0.0166308	W2: 0.000471646
+INFO : 05-21 08:02 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.614482 refreshed and saved!
+INFO : 05-21 08:02 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:02 84m 12s passed ( - 14m 51s til 22:19) (1700epoch 85.0%)
+INFO : 05-21 08:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Train Loss: 0.633939	AUC: 0.611652
+INFO : 05-21 08:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Valid Loss: 0.663788	AUC: 0.614713
+INFO : 05-21 08:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	KSVectorLoss: 0.0151967
+INFO : 05-21 08:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	W1: 0.0167547	W2: 0.000480747
+INFO : 05-21 08:07 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.614713 refreshed and saved!
+INFO : 05-21 08:07 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:07 89m 9s passed ( - 9m 54s til 17:17) (1800epoch 90.0%)
+INFO : 05-21 08:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Train Loss: 0.63365	AUC: 0.612451
+INFO : 05-21 08:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Valid Loss: 0.663668	AUC: 0.614819
+INFO : 05-21 08:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	KSVectorLoss: 0.0151921
+INFO : 05-21 08:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	W1: 0.01689	W2: 0.000490572
+INFO : 05-21 08:12 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.614838 at epoch 1890
+INFO : 05-21 08:12 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:12 94m 5s passed ( - 4m 57s til 11:42) (1900epoch 95.0%)
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Train Loss: 0.633243	AUC: 0.613628
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Valid Loss: 0.663593	AUC: 0.614956
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	KSVectorLoss: 0.015182
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	W1: 0.0170647	W2: 0.000502558
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.615006 at epoch 1990
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:17 99m 2s passed ( - 0m 0s til 08:17) (2000epoch 100.0%)
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| Loading model /code/output/config/20_05_13_Social_v10_baseline/checkpoints/20200521-0141/f3_best.model
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| test_dl.dataset size: 3760
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| Starting test
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test Loss: 0.650711	AUC: 0.61483
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test KSV AUC: 0.986089
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	W1: 0.0171888	W2: 0.000510257
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| RP soft 	 good:bad = 164:95
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| RP hard 	 nDCG = 0.8559±0.1726
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| The model has 544,499 trainable parameters
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| train_dl.dataset size: 12032
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| valid_dl.dataset size: 3008
+INFO : 05-21 08:17 : ksdkt/20_05_13_Social_v10_baseline 	| Starting train
+INFO : 05-21 08:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Train Loss: 0.665648	AUC: 0.512796
+INFO : 05-21 08:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Valid Loss: 0.657786	AUC: 0.503586
+INFO : 05-21 08:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	KSVectorLoss: 0.0162055
+INFO : 05-21 08:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	W1: 0.00137736	W2: 6.16406e-06
+INFO : 05-21 08:22 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.503586 refreshed and saved!
+INFO : 05-21 08:22 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:22 4m 57s passed ( - 94m 12s til 20:52) (100epoch 5.0%)
+INFO : 05-21 08:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Train Loss: 0.659592	AUC: 0.541892
+INFO : 05-21 08:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Valid Loss: 0.651105	AUC: 0.52784
+INFO : 05-21 08:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	KSVectorLoss: 0.0158327
+INFO : 05-21 08:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	W1: 0.00393384	W2: 3.74925e-05
+INFO : 05-21 08:27 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.52784 refreshed and saved!
+INFO : 05-21 08:27 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:27 9m 54s passed ( - 89m 8s til 15:06) (200epoch 10.0%)
+INFO : 05-21 08:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Train Loss: 0.65071	AUC: 0.587715
+INFO : 05-21 08:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Valid Loss: 0.646514	AUC: 0.560225
+INFO : 05-21 08:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	KSVectorLoss: 0.0152216
+INFO : 05-21 08:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	W1: 0.00717918	W2: 9.68628e-05
+INFO : 05-21 08:32 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.560225 refreshed and saved!
+INFO : 05-21 08:32 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:32 14m 51s passed ( - 84m 11s til 20:22) (300epoch 15.0%)
+INFO : 05-21 08:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Train Loss: 0.647174	AUC: 0.600289
+INFO : 05-21 08:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Valid Loss: 0.644705	AUC: 0.568862
+INFO : 05-21 08:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	KSVectorLoss: 0.015043
+INFO : 05-21 08:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	W1: 0.00992417	W2: 0.000175672
+INFO : 05-21 08:37 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.568862 refreshed and saved!
+INFO : 05-21 08:37 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:37 19m 49s passed ( - 79m 18s til 16:45) (400epoch 20.0%)
+INFO : 05-21 08:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Train Loss: 0.645488	AUC: 0.605717
+INFO : 05-21 08:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Valid Loss: 0.643929	AUC: 0.572521
+INFO : 05-21 08:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	KSVectorLoss: 0.0149497
+INFO : 05-21 08:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	W1: 0.0114332	W2: 0.000228684
+INFO : 05-21 08:42 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.572521 refreshed and saved!
+INFO : 05-21 08:42 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:42 24m 47s passed ( - 74m 21s til 20:48) (500epoch 25.0%)
+INFO : 05-21 08:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Train Loss: 0.644367	AUC: 0.609138
+INFO : 05-21 08:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Valid Loss: 0.643456	AUC: 0.57467
+INFO : 05-21 08:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	KSVectorLoss: 0.0148972
+INFO : 05-21 08:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	W1: 0.0124229	W2: 0.000266233
+INFO : 05-21 08:47 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.57467 refreshed and saved!
+INFO : 05-21 08:47 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:47 29m 44s passed ( - 69m 22s til 06:19) (600epoch 30.0%)
+INFO : 05-21 08:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Train Loss: 0.643536	AUC: 0.611629
+INFO : 05-21 08:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Valid Loss: 0.643157	AUC: 0.576108
+INFO : 05-21 08:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	KSVectorLoss: 0.0148658
+INFO : 05-21 08:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	W1: 0.0132577	W2: 0.000299593
+INFO : 05-21 08:52 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.576108 refreshed and saved!
+INFO : 05-21 08:52 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:52 34m 41s passed ( - 64m 25s til 18:52) (700epoch 35.0%)
+INFO : 05-21 08:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Train Loss: 0.642811	AUC: 0.613714
+INFO : 05-21 08:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Valid Loss: 0.642955	AUC: 0.577158
+INFO : 05-21 08:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	KSVectorLoss: 0.0148483
+INFO : 05-21 08:57 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	W1: 0.0140008	W2: 0.000330955
+INFO : 05-21 08:57 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.577158 refreshed and saved!
+INFO : 05-21 08:57 : ksdkt/20_05_13_Social_v10_baseline 	| At 08:57 39m 40s passed ( - 59m 30s til 22:07) (800epoch 40.0%)
+INFO : 05-21 09:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Train Loss: 0.642262	AUC: 0.615288
+INFO : 05-21 09:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Valid Loss: 0.642795	AUC: 0.577988
+INFO : 05-21 09:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	KSVectorLoss: 0.0148355
+INFO : 05-21 09:02 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	W1: 0.0146518	W2: 0.000360161
+INFO : 05-21 09:02 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.577988 refreshed and saved!
+INFO : 05-21 09:02 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:02 44m 38s passed ( - 54m 33s til 23:23) (900epoch 45.0%)
+INFO : 05-21 09:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Train Loss: 0.641825	AUC: 0.616492
+INFO : 05-21 09:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Valid Loss: 0.642663	AUC: 0.578706
+INFO : 05-21 09:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	KSVectorLoss: 0.0148266
+INFO : 05-21 09:07 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	W1: 0.0151973	W2: 0.000386021
+INFO : 05-21 09:07 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.578706 refreshed and saved!
+INFO : 05-21 09:07 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:07 49m 36s passed ( - 49m 36s til 19:44) (1000epoch 50.0%)
+INFO : 05-21 09:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Train Loss: 0.641423	AUC: 0.617677
+INFO : 05-21 09:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Valid Loss: 0.642563	AUC: 0.579316
+INFO : 05-21 09:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	KSVectorLoss: 0.0148224
+INFO : 05-21 09:12 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	W1: 0.0156392	W2: 0.000408188
+INFO : 05-21 09:12 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.579316 refreshed and saved!
+INFO : 05-21 09:12 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:12 54m 34s passed ( - 44m 39s til 11:34) (1100epoch 55.0%)
+INFO : 05-21 09:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Train Loss: 0.64104	AUC: 0.6187
+INFO : 05-21 09:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Valid Loss: 0.642474	AUC: 0.579802
+INFO : 05-21 09:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	KSVectorLoss: 0.0148183
+INFO : 05-21 09:17 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	W1: 0.016012	W2: 0.000428044
+INFO : 05-21 09:17 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.579802 refreshed and saved!
+INFO : 05-21 09:17 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:17 59m 32s passed ( - 39m 41s til 07:49) (1200epoch 60.0%)
+INFO : 05-21 09:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Train Loss: 0.640671	AUC: 0.619702
+INFO : 05-21 09:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Valid Loss: 0.642436	AUC: 0.580199
+INFO : 05-21 09:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	KSVectorLoss: 0.0148156
+INFO : 05-21 09:22 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	W1: 0.0163172	W2: 0.000445459
+INFO : 05-21 09:22 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.580199 refreshed and saved!
+INFO : 05-21 09:22 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:22 64m 31s passed ( - 34m 44s til 22:16) (1300epoch 65.0%)
+INFO : 05-21 09:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Train Loss: 0.640386	AUC: 0.620426
+INFO : 05-21 09:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Valid Loss: 0.642388	AUC: 0.58047
+INFO : 05-21 09:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	KSVectorLoss: 0.0148149
+INFO : 05-21 09:27 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	W1: 0.0165573	W2: 0.000460139
+INFO : 05-21 09:27 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.58047 refreshed and saved!
+INFO : 05-21 09:27 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:27 69m 29s passed ( - 29m 46s til 03:26) (1400epoch 70.0%)
+INFO : 05-21 09:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Train Loss: 0.640123	AUC: 0.621067
+INFO : 05-21 09:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Valid Loss: 0.642358	AUC: 0.580686
+INFO : 05-21 09:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	KSVectorLoss: 0.0148099
+INFO : 05-21 09:32 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	W1: 0.0167855	W2: 0.000474912
+INFO : 05-21 09:32 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.580686 refreshed and saved!
+INFO : 05-21 09:32 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:32 74m 27s passed ( - 24m 49s til 13:50) (1500epoch 75.0%)
+INFO : 05-21 09:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Train Loss: 0.639815	AUC: 0.621896
+INFO : 05-21 09:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Valid Loss: 0.64234	AUC: 0.580856
+INFO : 05-21 09:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	KSVectorLoss: 0.014802
+INFO : 05-21 09:37 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	W1: 0.0169873	W2: 0.000488611
+INFO : 05-21 09:37 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.580856 refreshed and saved!
+INFO : 05-21 09:37 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:37 79m 24s passed ( - 19m 51s til 15:28) (1600epoch 80.0%)
+INFO : 05-21 09:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Train Loss: 0.639568	AUC: 0.622675
+INFO : 05-21 09:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Valid Loss: 0.642356	AUC: 0.58099
+INFO : 05-21 09:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	KSVectorLoss: 0.014799
+INFO : 05-21 09:42 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	W1: 0.0171771	W2: 0.000502066
+INFO : 05-21 09:42 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.58099 refreshed and saved!
+INFO : 05-21 09:42 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:42 84m 23s passed ( - 14m 53s til 22:23) (1700epoch 85.0%)
+INFO : 05-21 09:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Train Loss: 0.639342	AUC: 0.623183
+INFO : 05-21 09:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Valid Loss: 0.642366	AUC: 0.581077
+INFO : 05-21 09:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	KSVectorLoss: 0.0147914
+INFO : 05-21 09:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	W1: 0.017354	W2: 0.000515048
+INFO : 05-21 09:47 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.581077 refreshed and saved!
+INFO : 05-21 09:47 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:47 89m 21s passed ( - 9m 55s til 03:40) (1800epoch 90.0%)
+INFO : 05-21 09:51 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Train Loss: 0.639239	AUC: 0.623451
+INFO : 05-21 09:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Valid Loss: 0.642398	AUC: 0.581123
+INFO : 05-21 09:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	KSVectorLoss: 0.0147891
+INFO : 05-21 09:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	W1: 0.0175153	W2: 0.000527675
+INFO : 05-21 09:52 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.581141 at epoch 1890
+INFO : 05-21 09:52 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:52 94m 19s passed ( - 4m 57s til 06:21) (1900epoch 95.0%)
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Train Loss: 0.638791	AUC: 0.624612
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Valid Loss: 0.642418	AUC: 0.581173
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	KSVectorLoss: 0.0147779
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	W1: 0.0177004	W2: 0.000541682
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| Best AUC 0.581173 refreshed and saved!
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| At 09:56 99m 16s passed ( - 0m 0s til 09:56) (2000epoch 100.0%)
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| Loading model /code/output/config/20_05_13_Social_v10_baseline/checkpoints/20200521-0141/f4_best.model
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| test_dl.dataset size: 3760
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| Starting test
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test Loss: 0.649318	AUC: 0.616822
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test KSV AUC: 0.98609
+INFO : 05-21 09:56 : ksdkt/20_05_13_Social_v10_baseline 	| 	W1: 0.0174631	W2: 0.000529819
+INFO : 05-21 09:57 : ksdkt/20_05_13_Social_v10_baseline 	| RP soft 	 good:bad = 161:98
+INFO : 05-21 09:57 : ksdkt/20_05_13_Social_v10_baseline 	| RP hard 	 nDCG = 0.8567±0.1712
+INFO : 05-21 09:57 : ksdkt/20_05_13_Social_v10_baseline 	| fintrain_dl.dataset size: 15040
+INFO : 05-21 09:57 : ksdkt/20_05_13_Social_v10_baseline 	| fintest_dl.dataset size: 3760
+INFO : 05-21 09:57 : ksdkt/20_05_13_Social_v10_baseline 	| The model has 544,499 trainable parameters
+INFO : 05-21 09:57 : ksdkt/20_05_13_Social_v10_baseline 	| Starting train
+INFO : 05-21 10:03 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 100	Train Loss: 0.662063	AUC: 0.5082
+INFO : 05-21 10:03 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:03 6m 8s passed ( - 116m 45s til 05:21) (100epoch 5.0%)
+INFO : 05-21 10:09 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 200	Train Loss: 0.657339	AUC: 0.539959
+INFO : 05-21 10:09 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:09 12m 16s passed ( - 110m 31s til 20:57) (200epoch 10.0%)
+INFO : 05-21 10:15 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 300	Train Loss: 0.649207	AUC: 0.58332
+INFO : 05-21 10:15 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:15 18m 24s passed ( - 104m 18s til 13:13) (300epoch 15.0%)
+INFO : 05-21 10:21 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 400	Train Loss: 0.64705	AUC: 0.591207
+INFO : 05-21 10:21 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:21 24m 31s passed ( - 98m 6s til 08:32) (400epoch 20.0%)
+INFO : 05-21 10:28 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 500	Train Loss: 0.645886	AUC: 0.595342
+INFO : 05-21 10:28 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:28 30m 39s passed ( - 91m 57s til 03:47) (500epoch 25.0%)
+INFO : 05-21 10:34 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 600	Train Loss: 0.645125	AUC: 0.597937
+INFO : 05-21 10:34 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:34 36m 46s passed ( - 85m 47s til 07:49) (600epoch 30.0%)
+INFO : 05-21 10:40 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 700	Train Loss: 0.644455	AUC: 0.600214
+INFO : 05-21 10:40 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:40 42m 54s passed ( - 79m 40s til 02:37) (700epoch 35.0%)
+INFO : 05-21 10:46 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 800	Train Loss: 0.64395	AUC: 0.601849
+INFO : 05-21 10:46 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:46 49m 1s passed ( - 73m 32s til 02:46) (800epoch 40.0%)
+INFO : 05-21 10:52 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 900	Train Loss: 0.643554	AUC: 0.603151
+INFO : 05-21 10:52 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:52 55m 7s passed ( - 67m 22s til 07:20) (900epoch 45.0%)
+INFO : 05-21 10:58 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1000	Train Loss: 0.643211	AUC: 0.604233
+INFO : 05-21 10:58 : ksdkt/20_05_13_Social_v10_baseline 	| At 10:58 61m 14s passed ( - 61m 14s til 21:00) (1000epoch 50.0%)
+INFO : 05-21 11:04 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1100	Train Loss: 0.642875	AUC: 0.605257
+INFO : 05-21 11:04 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:04 67m 20s passed ( - 55m 5s til 09:24) (1100epoch 55.0%)
+INFO : 05-21 11:10 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1200	Train Loss: 0.642577	AUC: 0.606146
+INFO : 05-21 11:10 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:10 73m 26s passed ( - 48m 57s til 05:10) (1200epoch 60.0%)
+INFO : 05-21 11:16 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1300	Train Loss: 0.642279	AUC: 0.607103
+INFO : 05-21 11:16 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:16 79m 32s passed ( - 42m 49s til 03:11) (1300epoch 65.0%)
+INFO : 05-21 11:23 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1400	Train Loss: 0.64205	AUC: 0.607768
+INFO : 05-21 11:23 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:23 85m 39s passed ( - 36m 42s til 21:43) (1400epoch 70.0%)
+INFO : 05-21 11:29 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1500	Train Loss: 0.641759	AUC: 0.608633
+INFO : 05-21 11:29 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:29 91m 44s passed ( - 30m 34s til 03:43) (1500epoch 75.0%)
+INFO : 05-21 11:35 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1600	Train Loss: 0.641561	AUC: 0.609223
+INFO : 05-21 11:35 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:35 97m 51s passed ( - 24m 27s til 09:01) (1600epoch 80.0%)
+INFO : 05-21 11:41 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1700	Train Loss: 0.641262	AUC: 0.610048
+INFO : 05-21 11:41 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:41 103m 59s passed ( - 18m 21s til 12:21) (1700epoch 85.0%)
+INFO : 05-21 11:47 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1800	Train Loss: 0.641065	AUC: 0.610708
+INFO : 05-21 11:47 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:47 110m 6s passed ( - 12m 14s til 13:27) (1800epoch 90.0%)
+INFO : 05-21 11:53 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 1900	Train Loss: 0.64083	AUC: 0.611409
+INFO : 05-21 11:53 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:53 116m 14s passed ( - 6m 7s til 14:23) (1900epoch 95.0%)
+INFO : 05-21 11:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Epoch 2000	Train Loss: 0.640563	AUC: 0.612126
+INFO : 05-21 11:59 : ksdkt/20_05_13_Social_v10_baseline 	| At 11:59 122m 23s passed ( - 0m 0s til 11:59) (2000epoch 100.0%)
+INFO : 05-21 11:59 : ksdkt/20_05_13_Social_v10_baseline 	| Starting test
+INFO : 05-21 11:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test Loss: 0.651576	AUC: 0.612612
+INFO : 05-21 11:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	Test KSV AUC: 0.985981
+INFO : 05-21 11:59 : ksdkt/20_05_13_Social_v10_baseline 	| 	W1: 0.0168724	W2: 0.000478749
+INFO : 05-21 12:00 : ksdkt/20_05_13_Social_v10_baseline 	| RP soft 	 good:bad = 153:106
+INFO : 05-21 12:00 : ksdkt/20_05_13_Social_v10_baseline 	| RP hard 	 nDCG = 0.8466±0.1769

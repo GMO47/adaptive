@@ -1,0 +1,6 @@
+INFO : 06-19 02:25 : ksdkt/20_05_13_Science_v10_baseline 	| PyTorch: 1.2.0
+INFO : 06-19 02:25 : ksdkt/20_05_13_Science_v10_baseline 	| Using Device: cuda
+INFO : 06-19 02:26 : ksdkt/20_05_13_Science_v10_baseline 	| The model has 525,926 trainable parameters
+INFO : 06-19 02:26 : ksdkt/20_05_13_Science_v10_baseline 	| train_dl.dataset size: 2048
+INFO : 06-19 02:26 : ksdkt/20_05_13_Science_v10_baseline 	| valid_dl.dataset size: 512
+INFO : 06-19 02:26 : ksdkt/20_05_13_Science_v10_baseline 	| Starting train
