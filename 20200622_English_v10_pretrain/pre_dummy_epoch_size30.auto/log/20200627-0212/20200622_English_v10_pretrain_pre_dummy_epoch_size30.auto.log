@@ -1,0 +1,730 @@
+INFO : 06-27 02:12 : ksdkt/pre_dummy_epoch_size30.auto 	| PyTorch: 1.4.0
+INFO : 06-27 02:12 : ksdkt/pre_dummy_epoch_size30.auto 	| Using Device: cuda
+INFO : 06-27 02:12 : ksdkt/pre_dummy_epoch_size30.auto 	| The model has 693,813 trainable parameters
+INFO : 06-27 02:12 : ksdkt/pre_dummy_epoch_size30.auto 	| train_dl.dataset size: 11008
+INFO : 06-27 02:12 : ksdkt/pre_dummy_epoch_size30.auto 	| valid_dl.dataset size: 2752
+INFO : 06-27 02:12 : ksdkt/pre_dummy_epoch_size30.auto 	| Start straightening pre-train
+INFO : 06-27 02:54 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting train
+INFO : 06-27 03:08 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Train Loss: 0.659606	AUC: 0.528491
+INFO : 06-27 03:08 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Valid Loss: 0.676533	AUC: 0.500584
+INFO : 06-27 03:08 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	KSVectorLoss: 6.26223
+INFO : 06-27 03:08 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	W1: 0.0113929	W2: 0.00104151
+INFO : 06-27 03:08 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.500942 at epoch 40
+INFO : 06-27 03:08 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:08 14m 33s passed ( - 276m 30s til 14:24) (100epoch 5.0%)
+INFO : 06-27 03:23 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Train Loss: 0.657657	AUC: 0.533541
+INFO : 06-27 03:23 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Valid Loss: 0.674987	AUC: 0.501955
+INFO : 06-27 03:23 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	KSVectorLoss: 6.26014
+INFO : 06-27 03:23 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	W1: 0.0102273	W2: 0.000853238
+INFO : 06-27 03:23 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.501955 refreshed and saved!
+INFO : 06-27 03:23 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:23 29m 13s passed ( - 263m 3s til 01:19) (200epoch 10.0%)
+INFO : 06-27 03:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Train Loss: 0.656704	AUC: 0.537582
+INFO : 06-27 03:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Valid Loss: 0.67459	AUC: 0.503464
+INFO : 06-27 03:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	KSVectorLoss: 6.26072
+INFO : 06-27 03:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	W1: 0.01007	W2: 0.000785489
+INFO : 06-27 03:37 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.503464 refreshed and saved!
+INFO : 06-27 03:37 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:37 43m 47s passed ( - 248m 11s til 06:06) (300epoch 15.0%)
+INFO : 06-27 03:52 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Train Loss: 0.656375	AUC: 0.540433
+INFO : 06-27 03:52 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Valid Loss: 0.674409	AUC: 0.505469
+INFO : 06-27 03:52 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	KSVectorLoss: 6.26092
+INFO : 06-27 03:52 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	W1: 0.0101317	W2: 0.000754717
+INFO : 06-27 03:52 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.505469 refreshed and saved!
+INFO : 06-27 03:52 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:52 58m 39s passed ( - 234m 36s til 17:06) (400epoch 20.0%)
+INFO : 06-27 04:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Train Loss: 0.655744	AUC: 0.544916
+INFO : 06-27 04:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Valid Loss: 0.674221	AUC: 0.508278
+INFO : 06-27 04:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	KSVectorLoss: 6.26028
+INFO : 06-27 04:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	W1: 0.010289	W2: 0.000736573
+INFO : 06-27 04:07 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.508518 at epoch 470
+INFO : 06-27 04:07 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:07 73m 3s passed ( - 219m 10s til 12:14) (500epoch 25.0%)
+INFO : 06-27 04:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Train Loss: 0.655143	AUC: 0.54925
+INFO : 06-27 04:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Valid Loss: 0.673899	AUC: 0.512454
+INFO : 06-27 04:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	KSVectorLoss: 6.25715
+INFO : 06-27 04:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	W1: 0.0105555	W2: 0.000727356
+INFO : 06-27 04:21 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.512454 refreshed and saved!
+INFO : 06-27 04:21 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:21 87m 40s passed ( - 204m 34s til 03:51) (600epoch 30.0%)
+INFO : 06-27 04:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Train Loss: 0.654331	AUC: 0.554679
+INFO : 06-27 04:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Valid Loss: 0.673864	AUC: 0.514177
+INFO : 06-27 04:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	KSVectorLoss: 6.25715
+INFO : 06-27 04:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	W1: 0.0107983	W2: 0.000727291
+INFO : 06-27 04:36 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.514177 refreshed and saved!
+INFO : 06-27 04:36 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:36 102m 17s passed ( - 189m 58s til 01:48) (700epoch 35.0%)
+INFO : 06-27 04:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Train Loss: 0.653633	AUC: 0.558881
+INFO : 06-27 04:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Valid Loss: 0.673782	AUC: 0.516727
+INFO : 06-27 04:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	KSVectorLoss: 6.25242
+INFO : 06-27 04:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	W1: 0.0110666	W2: 0.000728013
+INFO : 06-27 04:51 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.516727 refreshed and saved!
+INFO : 06-27 04:51 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:51 117m 30s passed ( - 176m 15s til 18:00) (800epoch 40.0%)
+INFO : 06-27 05:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Train Loss: 0.652997	AUC: 0.562835
+INFO : 06-27 05:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Valid Loss: 0.6737	AUC: 0.518475
+INFO : 06-27 05:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	KSVectorLoss: 6.25047
+INFO : 06-27 05:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	W1: 0.0113437	W2: 0.000729381
+INFO : 06-27 05:07 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.518618 at epoch 870
+INFO : 06-27 05:07 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:07 133m 24s passed ( - 163m 3s til 19:24) (900epoch 45.0%)
+INFO : 06-27 05:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Train Loss: 0.652204	AUC: 0.567106
+INFO : 06-27 05:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Valid Loss: 0.673455	AUC: 0.521636
+INFO : 06-27 05:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	KSVectorLoss: 6.24621
+INFO : 06-27 05:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	W1: 0.0116632	W2: 0.0007371
+INFO : 06-27 05:22 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.521746 at epoch 990
+INFO : 06-27 05:22 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:22 148m 22s passed ( - 148m 22s til 20:38) (1000epoch 50.0%)
+INFO : 06-27 05:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Train Loss: 0.651254	AUC: 0.571976
+INFO : 06-27 05:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Valid Loss: 0.673205	AUC: 0.524936
+INFO : 06-27 05:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	KSVectorLoss: 6.23649
+INFO : 06-27 05:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	W1: 0.0121953	W2: 0.00074556
+INFO : 06-27 05:35 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.524936 refreshed and saved!
+INFO : 06-27 05:35 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:35 161m 43s passed ( - 132m 19s til 18:08) (1100epoch 55.0%)
+INFO : 06-27 05:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Train Loss: 0.65028	AUC: 0.57677
+INFO : 06-27 05:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Valid Loss: 0.673071	AUC: 0.5275
+INFO : 06-27 05:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	KSVectorLoss: 6.22845
+INFO : 06-27 05:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	W1: 0.0126923	W2: 0.000758212
+INFO : 06-27 05:48 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.5275 refreshed and saved!
+INFO : 06-27 05:48 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:48 174m 32s passed ( - 116m 21s til 04:47) (1200epoch 60.0%)
+INFO : 06-27 06:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Train Loss: 0.649356	AUC: 0.580997
+INFO : 06-27 06:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Valid Loss: 0.672943	AUC: 0.529977
+INFO : 06-27 06:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	KSVectorLoss: 6.22733
+INFO : 06-27 06:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	W1: 0.0133107	W2: 0.00077265
+INFO : 06-27 06:01 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.529977 refreshed and saved!
+INFO : 06-27 06:01 : ksdkt/pre_dummy_epoch_size30.auto 	| At 06:01 187m 49s passed ( - 101m 8s til 14:17) (1300epoch 65.0%)
+INFO : 06-27 06:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Train Loss: 0.648279	AUC: 0.585554
+INFO : 06-27 06:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Valid Loss: 0.672816	AUC: 0.532211
+INFO : 06-27 06:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	KSVectorLoss: 6.21867
+INFO : 06-27 06:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	W1: 0.0136472	W2: 0.000784929
+INFO : 06-27 06:13 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.532211 refreshed and saved!
+INFO : 06-27 06:13 : ksdkt/pre_dummy_epoch_size30.auto 	| At 06:13 199m 37s passed ( - 85m 33s til 12:58) (1400epoch 70.0%)
+INFO : 06-27 06:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Train Loss: 0.647558	AUC: 0.58856
+INFO : 06-27 06:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Valid Loss: 0.67275	AUC: 0.534323
+INFO : 06-27 06:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	KSVectorLoss: 6.21616
+INFO : 06-27 06:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	W1: 0.014113	W2: 0.00080025
+INFO : 06-27 06:25 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.534323 refreshed and saved!
+INFO : 06-27 06:25 : ksdkt/pre_dummy_epoch_size30.auto 	| At 06:25 211m 28s passed ( - 70m 29s til 18:46) (1500epoch 75.0%)
+INFO : 06-27 06:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Train Loss: 0.646448	AUC: 0.593003
+INFO : 06-27 06:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Valid Loss: 0.672755	AUC: 0.535709
+INFO : 06-27 06:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	KSVectorLoss: 6.21101
+INFO : 06-27 06:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	W1: 0.0144809	W2: 0.000812544
+INFO : 06-27 06:38 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.535955 at epoch 1580
+INFO : 06-27 06:38 : ksdkt/pre_dummy_epoch_size30.auto 	| At 06:38 224m 17s passed ( - 56m 4s til 13:40) (1600epoch 80.0%)
+INFO : 06-27 06:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Train Loss: 0.645609	AUC: 0.595876
+INFO : 06-27 06:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Valid Loss: 0.672596	AUC: 0.538217
+INFO : 06-27 06:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	KSVectorLoss: 6.21074
+INFO : 06-27 06:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	W1: 0.0149849	W2: 0.000831583
+INFO : 06-27 06:51 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.538217 refreshed and saved!
+INFO : 06-27 06:51 : ksdkt/pre_dummy_epoch_size30.auto 	| At 06:51 237m 48s passed ( - 41m 57s til 05:31) (1700epoch 85.0%)
+INFO : 06-27 07:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Train Loss: 0.644696	AUC: 0.599252
+INFO : 06-27 07:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Valid Loss: 0.672567	AUC: 0.539475
+INFO : 06-27 07:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	KSVectorLoss: 6.20611
+INFO : 06-27 07:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	W1: 0.0155361	W2: 0.00085186
+INFO : 06-27 07:05 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.539475 refreshed and saved!
+INFO : 06-27 07:05 : ksdkt/pre_dummy_epoch_size30.auto 	| At 07:05 251m 1s passed ( - 27m 53s til 18:07) (1800epoch 90.0%)
+INFO : 06-27 07:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Train Loss: 0.643647	AUC: 0.602927
+INFO : 06-27 07:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Valid Loss: 0.672611	AUC: 0.540597
+INFO : 06-27 07:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	KSVectorLoss: 6.20873
+INFO : 06-27 07:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	W1: 0.0160158	W2: 0.000872843
+INFO : 06-27 07:19 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.540609 at epoch 1890
+INFO : 06-27 07:19 : ksdkt/pre_dummy_epoch_size30.auto 	| At 07:19 265m 23s passed ( - 13m 58s til 09:29) (1900epoch 95.0%)
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Train Loss: 0.642494	AUC: 0.606593
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Valid Loss: 0.672525	AUC: 0.542231
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	KSVectorLoss: 6.20273
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	W1: 0.0164238	W2: 0.000894019
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.542231 refreshed and saved!
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| At 07:34 280m 2s passed ( - 0m 0s til 07:34) (2000epoch 100.0%)
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| Loading model /code/output/20200622_English_v10_pretrain/pre_dummy_epoch_size30.auto/checkpoints/20200627-0212/f0_best.model
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| test_dl.dataset size: 3440
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting test
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test Loss: 0.65689	AUC: 0.597324
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test KSV Loss: 6.14371
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	W1: 0.016502	W2: 0.000898205
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	r1: 0.65885
+INFO : 06-27 07:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test AUC(C): 0.590833
+INFO : 06-27 07:44 : ksdkt/pre_dummy_epoch_size30.auto 	| RP soft 	 good:bad = 756:185
+INFO : 06-27 07:44 : ksdkt/pre_dummy_epoch_size30.auto 	| RP hard 	 nDCG = 0.9066±0.1166
+INFO : 06-27 07:44 : ksdkt/pre_dummy_epoch_size30.auto 	| The model has 693,813 trainable parameters
+INFO : 06-27 07:44 : ksdkt/pre_dummy_epoch_size30.auto 	| train_dl.dataset size: 11008
+INFO : 06-27 07:44 : ksdkt/pre_dummy_epoch_size30.auto 	| valid_dl.dataset size: 2752
+INFO : 06-27 07:44 : ksdkt/pre_dummy_epoch_size30.auto 	| Start straightening pre-train
+INFO : 06-27 08:25 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting train
+INFO : 06-27 08:40 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Train Loss: 0.667695	AUC: 0.526094
+INFO : 06-27 08:40 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Valid Loss: 0.644557	AUC: 0.499204
+INFO : 06-27 08:40 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	KSVectorLoss: 6.10582
+INFO : 06-27 08:40 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	W1: 0.0103519	W2: 0.00091416
+INFO : 06-27 08:40 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.499204 refreshed and saved!
+INFO : 06-27 08:40 : ksdkt/pre_dummy_epoch_size30.auto 	| At 08:40 14m 29s passed ( - 275m 16s til 23:25) (100epoch 5.0%)
+INFO : 06-27 08:54 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Train Loss: 0.665807	AUC: 0.530517
+INFO : 06-27 08:54 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Valid Loss: 0.64311	AUC: 0.499689
+INFO : 06-27 08:54 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	KSVectorLoss: 6.10413
+INFO : 06-27 08:54 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	W1: 0.00900963	W2: 0.000731133
+INFO : 06-27 08:54 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.499689 refreshed and saved!
+INFO : 06-27 08:54 : ksdkt/pre_dummy_epoch_size30.auto 	| At 08:54 29m 12s passed ( - 262m 55s til 04:22) (200epoch 10.0%)
+INFO : 06-27 09:10 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Train Loss: 0.665279	AUC: 0.532827
+INFO : 06-27 09:10 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Valid Loss: 0.642697	AUC: 0.500443
+INFO : 06-27 09:10 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	KSVectorLoss: 6.10413
+INFO : 06-27 09:10 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	W1: 0.00862184	W2: 0.000661819
+INFO : 06-27 09:10 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.500443 refreshed and saved!
+INFO : 06-27 09:10 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:10 45m 18s passed ( - 256m 42s til 09:04) (300epoch 15.0%)
+INFO : 06-27 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Train Loss: 0.66492	AUC: 0.534624
+INFO : 06-27 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Valid Loss: 0.642506	AUC: 0.501236
+INFO : 06-27 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	KSVectorLoss: 6.10452
+INFO : 06-27 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	W1: 0.00849214	W2: 0.000626562
+INFO : 06-27 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.501236 refreshed and saved!
+INFO : 06-27 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:26 61m 8s passed ( - 244m 33s til 17:06) (400epoch 20.0%)
+INFO : 06-27 09:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Train Loss: 0.664645	AUC: 0.536208
+INFO : 06-27 09:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Valid Loss: 0.6424	AUC: 0.501994
+INFO : 06-27 09:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	KSVectorLoss: 6.1055
+INFO : 06-27 09:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	W1: 0.00848847	W2: 0.000606446
+INFO : 06-27 09:42 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.501994 refreshed and saved!
+INFO : 06-27 09:42 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:42 77m 10s passed ( - 231m 30s til 08:54) (500epoch 25.0%)
+INFO : 06-27 09:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Train Loss: 0.66441	AUC: 0.537989
+INFO : 06-27 09:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Valid Loss: 0.642304	AUC: 0.502931
+INFO : 06-27 09:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	KSVectorLoss: 6.10599
+INFO : 06-27 09:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	W1: 0.00855189	W2: 0.000593851
+INFO : 06-27 09:58 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.502931 refreshed and saved!
+INFO : 06-27 09:58 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:58 93m 12s passed ( - 217m 30s til 16:49) (600epoch 30.0%)
+INFO : 06-27 10:14 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Train Loss: 0.66427	AUC: 0.538771
+INFO : 06-27 10:14 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Valid Loss: 0.642215	AUC: 0.503961
+INFO : 06-27 10:14 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	KSVectorLoss: 6.10651
+INFO : 06-27 10:14 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	W1: 0.00865651	W2: 0.000584857
+INFO : 06-27 10:14 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.503961 refreshed and saved!
+INFO : 06-27 10:14 : ksdkt/pre_dummy_epoch_size30.auto 	| At 10:14 109m 10s passed ( - 202m 45s til 08:35) (700epoch 35.0%)
+INFO : 06-27 10:30 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Train Loss: 0.663971	AUC: 0.541325
+INFO : 06-27 10:30 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Valid Loss: 0.6421	AUC: 0.505188
+INFO : 06-27 10:30 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	KSVectorLoss: 6.10641
+INFO : 06-27 10:30 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	W1: 0.00879531	W2: 0.00057775
+INFO : 06-27 10:30 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.505188 refreshed and saved!
+INFO : 06-27 10:30 : ksdkt/pre_dummy_epoch_size30.auto 	| At 10:30 125m 11s passed ( - 187m 47s til 22:14) (800epoch 40.0%)
+INFO : 06-27 10:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Train Loss: 0.6639	AUC: 0.541369
+INFO : 06-27 10:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Valid Loss: 0.641981	AUC: 0.50665
+INFO : 06-27 10:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	KSVectorLoss: 6.10599
+INFO : 06-27 10:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	W1: 0.00897876	W2: 0.000573247
+INFO : 06-27 10:46 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.50665 refreshed and saved!
+INFO : 06-27 10:46 : ksdkt/pre_dummy_epoch_size30.auto 	| At 10:46 141m 13s passed ( - 172m 37s til 13:09) (900epoch 45.0%)
+INFO : 06-27 11:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Train Loss: 0.663639	AUC: 0.544246
+INFO : 06-27 11:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Valid Loss: 0.641746	AUC: 0.509114
+INFO : 06-27 11:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	KSVectorLoss: 6.10326
+INFO : 06-27 11:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	W1: 0.00918737	W2: 0.000571316
+INFO : 06-27 11:02 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.509114 refreshed and saved!
+INFO : 06-27 11:02 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:02 157m 16s passed ( - 157m 16s til 19:45) (1000epoch 50.0%)
+INFO : 06-27 11:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Train Loss: 0.663266	AUC: 0.546341
+INFO : 06-27 11:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Valid Loss: 0.641429	AUC: 0.513063
+INFO : 06-27 11:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	KSVectorLoss: 6.09696
+INFO : 06-27 11:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	W1: 0.00949304	W2: 0.000570923
+INFO : 06-27 11:18 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.513063 refreshed and saved!
+INFO : 06-27 11:18 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:18 173m 17s passed ( - 141m 46s til 06:19) (1100epoch 55.0%)
+INFO : 06-27 11:33 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Train Loss: 0.662882	AUC: 0.549618
+INFO : 06-27 11:33 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Valid Loss: 0.640887	AUC: 0.518477
+INFO : 06-27 11:33 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	KSVectorLoss: 6.08513
+INFO : 06-27 11:33 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	W1: 0.0100999	W2: 0.000573228
+INFO : 06-27 11:33 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.518477 refreshed and saved!
+INFO : 06-27 11:33 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:33 188m 19s passed ( - 125m 32s til 07:11) (1200epoch 60.0%)
+INFO : 06-27 11:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Train Loss: 0.662069	AUC: 0.554928
+INFO : 06-27 11:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Valid Loss: 0.640218	AUC: 0.524167
+INFO : 06-27 11:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	KSVectorLoss: 6.07301
+INFO : 06-27 11:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	W1: 0.0105945	W2: 0.000579004
+INFO : 06-27 11:48 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.524167 refreshed and saved!
+INFO : 06-27 11:48 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:48 202m 32s passed ( - 109m 3s til 06:33) (1300epoch 65.0%)
+INFO : 06-27 12:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Train Loss: 0.661401	AUC: 0.558842
+INFO : 06-27 12:03 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Valid Loss: 0.639611	AUC: 0.529688
+INFO : 06-27 12:03 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	KSVectorLoss: 6.06351
+INFO : 06-27 12:03 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	W1: 0.0110465	W2: 0.000588368
+INFO : 06-27 12:03 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.529688 refreshed and saved!
+INFO : 06-27 12:03 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:03 217m 20s passed ( - 93m 8s til 09:04) (1400epoch 70.0%)
+INFO : 06-27 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Train Loss: 0.660691	AUC: 0.562965
+INFO : 06-27 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Valid Loss: 0.638976	AUC: 0.534147
+INFO : 06-27 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	KSVectorLoss: 6.05213
+INFO : 06-27 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	W1: 0.0114341	W2: 0.000596629
+INFO : 06-27 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.534147 refreshed and saved!
+INFO : 06-27 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:15 230m 9s passed ( - 76m 43s til 16:13) (1500epoch 75.0%)
+INFO : 06-27 12:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Train Loss: 0.659602	AUC: 0.569116
+INFO : 06-27 12:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Valid Loss: 0.638296	AUC: 0.537991
+INFO : 06-27 12:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	KSVectorLoss: 6.04082
+INFO : 06-27 12:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	W1: 0.0118213	W2: 0.000607595
+INFO : 06-27 12:29 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.537991 refreshed and saved!
+INFO : 06-27 12:29 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:29 243m 41s passed ( - 60m 55s til 22:20) (1600epoch 80.0%)
+INFO : 06-27 12:43 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Train Loss: 0.658841	AUC: 0.572488
+INFO : 06-27 12:43 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Valid Loss: 0.63781	AUC: 0.541799
+INFO : 06-27 12:43 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	KSVectorLoss: 6.04349
+INFO : 06-27 12:43 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	W1: 0.0122313	W2: 0.000620752
+INFO : 06-27 12:43 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.541847 at epoch 1690
+INFO : 06-27 12:43 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:43 257m 53s passed ( - 45m 30s til 02:53) (1700epoch 85.0%)
+INFO : 06-27 12:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Train Loss: 0.657745	AUC: 0.577873
+INFO : 06-27 12:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Valid Loss: 0.637221	AUC: 0.544926
+INFO : 06-27 12:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	KSVectorLoss: 6.03737
+INFO : 06-27 12:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	W1: 0.0126366	W2: 0.00063513
+INFO : 06-27 12:58 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.544926 refreshed and saved!
+INFO : 06-27 12:58 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:58 272m 39s passed ( - 30m 17s til 05:57) (1800epoch 90.0%)
+INFO : 06-27 13:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Train Loss: 0.656756	AUC: 0.5822
+INFO : 06-27 13:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Valid Loss: 0.636811	AUC: 0.547706
+INFO : 06-27 13:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	KSVectorLoss: 6.03419
+INFO : 06-27 13:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	W1: 0.0130487	W2: 0.000650071
+INFO : 06-27 13:13 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.547706 refreshed and saved!
+INFO : 06-27 13:13 : ksdkt/pre_dummy_epoch_size30.auto 	| At 13:13 287m 39s passed ( - 15m 8s til 22:16) (1900epoch 95.0%)
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Train Loss: 0.655981	AUC: 0.58559
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Valid Loss: 0.63646	AUC: 0.55025
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	KSVectorLoss: 6.03125
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	W1: 0.0134347	W2: 0.000667186
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.55025 refreshed and saved!
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| At 13:29 303m 37s passed ( - 0m 0s til 13:29) (2000epoch 100.0%)
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| Loading model /code/output/20200622_English_v10_pretrain/pre_dummy_epoch_size30.auto/checkpoints/20200627-0212/f1_best.model
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| test_dl.dataset size: 3440
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting test
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test Loss: 0.659337	AUC: 0.586855
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test KSV Loss: 6.19718
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	W1: 0.0133946	W2: 0.000663814
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	r1: 0.659586
+INFO : 06-27 13:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test AUC(C): 0.585626
+INFO : 06-27 13:40 : ksdkt/pre_dummy_epoch_size30.auto 	| RP soft 	 good:bad = 800:141
+INFO : 06-27 13:40 : ksdkt/pre_dummy_epoch_size30.auto 	| RP hard 	 nDCG = 0.9208±0.1071
+INFO : 06-27 13:40 : ksdkt/pre_dummy_epoch_size30.auto 	| The model has 693,813 trainable parameters
+INFO : 06-27 13:40 : ksdkt/pre_dummy_epoch_size30.auto 	| train_dl.dataset size: 11008
+INFO : 06-27 13:40 : ksdkt/pre_dummy_epoch_size30.auto 	| valid_dl.dataset size: 2752
+INFO : 06-27 13:40 : ksdkt/pre_dummy_epoch_size30.auto 	| Start straightening pre-train
+INFO : 06-27 14:22 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting train
+INFO : 06-27 14:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Train Loss: 0.660174	AUC: 0.528473
+INFO : 06-27 14:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Valid Loss: 0.66862	AUC: 0.50111
+INFO : 06-27 14:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	KSVectorLoss: 6.21884
+INFO : 06-27 14:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	W1: 0.0114093	W2: 0.00104463
+INFO : 06-27 14:37 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.50111 refreshed and saved!
+INFO : 06-27 14:37 : ksdkt/pre_dummy_epoch_size30.auto 	| At 14:37 14m 50s passed ( - 281m 50s til 14:50) (100epoch 5.0%)
+INFO : 06-27 14:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Train Loss: 0.658649	AUC: 0.53215
+INFO : 06-27 14:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Valid Loss: 0.667591	AUC: 0.501622
+INFO : 06-27 14:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	KSVectorLoss: 6.21697
+INFO : 06-27 14:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	W1: 0.0102979	W2: 0.000867106
+INFO : 06-27 14:51 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.501622 refreshed and saved!
+INFO : 06-27 14:51 : ksdkt/pre_dummy_epoch_size30.auto 	| At 14:51 29m 37s passed ( - 266m 33s til 01:00) (200epoch 10.0%)
+INFO : 06-27 15:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Train Loss: 0.658014	AUC: 0.53555
+INFO : 06-27 15:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Valid Loss: 0.667285	AUC: 0.502439
+INFO : 06-27 15:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	KSVectorLoss: 6.21739
+INFO : 06-27 15:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	W1: 0.0100432	W2: 0.000796288
+INFO : 06-27 15:06 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.502439 refreshed and saved!
+INFO : 06-27 15:06 : ksdkt/pre_dummy_epoch_size30.auto 	| At 15:06 44m 24s passed ( - 251m 41s til 01:20) (300epoch 15.0%)
+INFO : 06-27 15:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Train Loss: 0.657522	AUC: 0.538209
+INFO : 06-27 15:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Valid Loss: 0.667146	AUC: 0.503536
+INFO : 06-27 15:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	KSVectorLoss: 6.21897
+INFO : 06-27 15:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	W1: 0.0100308	W2: 0.000761752
+INFO : 06-27 15:21 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.503536 refreshed and saved!
+INFO : 06-27 15:21 : ksdkt/pre_dummy_epoch_size30.auto 	| At 15:21 59m 6s passed ( - 236m 24s til 02:33) (400epoch 20.0%)
+INFO : 06-27 15:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Train Loss: 0.657278	AUC: 0.54088
+INFO : 06-27 15:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Valid Loss: 0.667054	AUC: 0.505029
+INFO : 06-27 15:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	KSVectorLoss: 6.22136
+INFO : 06-27 15:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	W1: 0.0101545	W2: 0.000743566
+INFO : 06-27 15:36 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.505029 refreshed and saved!
+INFO : 06-27 15:36 : ksdkt/pre_dummy_epoch_size30.auto 	| At 15:36 73m 52s passed ( - 221m 37s til 09:07) (500epoch 25.0%)
+INFO : 06-27 15:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Train Loss: 0.656762	AUC: 0.544673
+INFO : 06-27 15:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Valid Loss: 0.666909	AUC: 0.507594
+INFO : 06-27 15:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	KSVectorLoss: 6.22248
+INFO : 06-27 15:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	W1: 0.0104641	W2: 0.000734252
+INFO : 06-27 15:50 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.507594 refreshed and saved!
+INFO : 06-27 15:50 : ksdkt/pre_dummy_epoch_size30.auto 	| At 15:50 88m 36s passed ( - 206m 44s til 00:38) (600epoch 30.0%)
+INFO : 06-27 16:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Train Loss: 0.656031	AUC: 0.549222
+INFO : 06-27 16:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Valid Loss: 0.666717	AUC: 0.510618
+INFO : 06-27 16:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	KSVectorLoss: 6.22423
+INFO : 06-27 16:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	W1: 0.0107477	W2: 0.000732498
+INFO : 06-27 16:05 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.510618 refreshed and saved!
+INFO : 06-27 16:05 : ksdkt/pre_dummy_epoch_size30.auto 	| At 16:05 103m 13s passed ( - 191m 42s til 11:44) (700epoch 35.0%)
+INFO : 06-27 16:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Train Loss: 0.655391	AUC: 0.553585
+INFO : 06-27 16:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Valid Loss: 0.666449	AUC: 0.514612
+INFO : 06-27 16:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	KSVectorLoss: 6.22294
+INFO : 06-27 16:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	W1: 0.0111504	W2: 0.00073609
+INFO : 06-27 16:20 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.514612 refreshed and saved!
+INFO : 06-27 16:20 : ksdkt/pre_dummy_epoch_size30.auto 	| At 16:20 117m 50s passed ( - 176m 45s til 23:09) (800epoch 40.0%)
+INFO : 06-27 16:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Train Loss: 0.654401	AUC: 0.559825
+INFO : 06-27 16:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Valid Loss: 0.666181	AUC: 0.518191
+INFO : 06-27 16:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	KSVectorLoss: 6.21394
+INFO : 06-27 16:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	W1: 0.0117427	W2: 0.000742726
+INFO : 06-27 16:34 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.518191 refreshed and saved!
+INFO : 06-27 16:34 : ksdkt/pre_dummy_epoch_size30.auto 	| At 16:34 132m 36s passed ( - 162m 4s til 18:18) (900epoch 45.0%)
+INFO : 06-27 16:49 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Train Loss: 0.653584	AUC: 0.564622
+INFO : 06-27 16:49 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Valid Loss: 0.665986	AUC: 0.521305
+INFO : 06-27 16:49 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	KSVectorLoss: 6.20956
+INFO : 06-27 16:49 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	W1: 0.0122949	W2: 0.000754456
+INFO : 06-27 16:49 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.521305 refreshed and saved!
+INFO : 06-27 16:49 : ksdkt/pre_dummy_epoch_size30.auto 	| At 16:49 147m 16s passed ( - 147m 16s til 23:57) (1000epoch 50.0%)
+INFO : 06-27 17:04 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Train Loss: 0.65277	AUC: 0.568499
+INFO : 06-27 17:04 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Valid Loss: 0.665826	AUC: 0.524166
+INFO : 06-27 17:04 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	KSVectorLoss: 6.20228
+INFO : 06-27 17:04 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	W1: 0.012919	W2: 0.000767852
+INFO : 06-27 17:04 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.524166 refreshed and saved!
+INFO : 06-27 17:04 : ksdkt/pre_dummy_epoch_size30.auto 	| At 17:04 161m 58s passed ( - 132m 31s til 21:48) (1100epoch 55.0%)
+INFO : 06-27 17:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Train Loss: 0.651808	AUC: 0.573633
+INFO : 06-27 17:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Valid Loss: 0.665733	AUC: 0.526474
+INFO : 06-27 17:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	KSVectorLoss: 6.19796
+INFO : 06-27 17:18 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	W1: 0.0134388	W2: 0.00078361
+INFO : 06-27 17:18 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.526474 refreshed and saved!
+INFO : 06-27 17:18 : ksdkt/pre_dummy_epoch_size30.auto 	| At 17:18 176m 45s passed ( - 117m 50s til 07:18) (1200epoch 60.0%)
+INFO : 06-27 17:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Train Loss: 0.650812	AUC: 0.577996
+INFO : 06-27 17:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Valid Loss: 0.665606	AUC: 0.528889
+INFO : 06-27 17:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	KSVectorLoss: 6.19639
+INFO : 06-27 17:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	W1: 0.0139115	W2: 0.000800107
+INFO : 06-27 17:31 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.528889 refreshed and saved!
+INFO : 06-27 17:31 : ksdkt/pre_dummy_epoch_size30.auto 	| At 17:31 189m 41s passed ( - 102m 8s til 09:58) (1300epoch 65.0%)
+INFO : 06-27 17:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Train Loss: 0.649798	AUC: 0.582855
+INFO : 06-27 17:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Valid Loss: 0.665562	AUC: 0.530681
+INFO : 06-27 17:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	KSVectorLoss: 6.1959
+INFO : 06-27 17:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	W1: 0.0143383	W2: 0.000816695
+INFO : 06-27 17:45 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.530681 refreshed and saved!
+INFO : 06-27 17:45 : ksdkt/pre_dummy_epoch_size30.auto 	| At 17:45 203m 27s passed ( - 87m 11s til 10:36) (1400epoch 70.0%)
+INFO : 06-27 17:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Train Loss: 0.648867	AUC: 0.586927
+INFO : 06-27 17:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Valid Loss: 0.665497	AUC: 0.532522
+INFO : 06-27 17:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	KSVectorLoss: 6.19542
+INFO : 06-27 17:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	W1: 0.0147871	W2: 0.000834605
+INFO : 06-27 17:58 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.532522 refreshed and saved!
+INFO : 06-27 17:58 : ksdkt/pre_dummy_epoch_size30.auto 	| At 17:58 216m 31s passed ( - 72m 10s til 04:25) (1500epoch 75.0%)
+INFO : 06-27 18:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Train Loss: 0.647731	AUC: 0.591306
+INFO : 06-27 18:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Valid Loss: 0.665443	AUC: 0.53442
+INFO : 06-27 18:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	KSVectorLoss: 6.19222
+INFO : 06-27 18:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	W1: 0.0152152	W2: 0.000853767
+INFO : 06-27 18:11 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.53442 refreshed and saved!
+INFO : 06-27 18:11 : ksdkt/pre_dummy_epoch_size30.auto 	| At 18:11 229m 12s passed ( - 57m 18s til 23:07) (1600epoch 80.0%)
+INFO : 06-27 18:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Train Loss: 0.646576	AUC: 0.596171
+INFO : 06-27 18:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Valid Loss: 0.665326	AUC: 0.536408
+INFO : 06-27 18:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	KSVectorLoss: 6.19212
+INFO : 06-27 18:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	W1: 0.015681	W2: 0.000875144
+INFO : 06-27 18:22 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.536408 refreshed and saved!
+INFO : 06-27 18:22 : ksdkt/pre_dummy_epoch_size30.auto 	| At 18:22 240m 39s passed ( - 42m 28s til 22:46) (1700epoch 85.0%)
+INFO : 06-27 18:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Train Loss: 0.645569	AUC: 0.599501
+INFO : 06-27 18:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Valid Loss: 0.665347	AUC: 0.537904
+INFO : 06-27 18:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	KSVectorLoss: 6.19589
+INFO : 06-27 18:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	W1: 0.0161881	W2: 0.000900169
+INFO : 06-27 18:35 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.537904 refreshed and saved!
+INFO : 06-27 18:35 : ksdkt/pre_dummy_epoch_size30.auto 	| At 18:35 252m 50s passed ( - 28m 5s til 08:22) (1800epoch 90.0%)
+INFO : 06-27 18:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Train Loss: 0.644491	AUC: 0.603508
+INFO : 06-27 18:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Valid Loss: 0.665372	AUC: 0.539488
+INFO : 06-27 18:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	KSVectorLoss: 6.19459
+INFO : 06-27 18:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	W1: 0.0167258	W2: 0.000924686
+INFO : 06-27 18:48 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.539488 refreshed and saved!
+INFO : 06-27 18:48 : ksdkt/pre_dummy_epoch_size30.auto 	| At 18:48 266m 13s passed ( - 14m 0s til 11:34) (1900epoch 95.0%)
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Train Loss: 0.64342	AUC: 0.60699
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Valid Loss: 0.665275	AUC: 0.54134
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	KSVectorLoss: 6.18951
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	W1: 0.0172361	W2: 0.000950981
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.54134 refreshed and saved!
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| At 19:01 279m 44s passed ( - 0m 0s til 19:01) (2000epoch 100.0%)
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| Loading model /code/output/20200622_English_v10_pretrain/pre_dummy_epoch_size30.auto/checkpoints/20200627-0212/f2_best.model
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| test_dl.dataset size: 3440
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting test
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test Loss: 0.656267	AUC: 0.599632
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test KSV Loss: 6.17452
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	W1: 0.0172934	W2: 0.000954212
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	r1: 0.655526
+INFO : 06-27 19:01 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test AUC(C): 0.602128
+INFO : 06-27 19:11 : ksdkt/pre_dummy_epoch_size30.auto 	| RP soft 	 good:bad = 765:176
+INFO : 06-27 19:11 : ksdkt/pre_dummy_epoch_size30.auto 	| RP hard 	 nDCG = 0.9098±0.1140
+INFO : 06-27 19:11 : ksdkt/pre_dummy_epoch_size30.auto 	| The model has 693,813 trainable parameters
+INFO : 06-27 19:11 : ksdkt/pre_dummy_epoch_size30.auto 	| train_dl.dataset size: 11008
+INFO : 06-27 19:11 : ksdkt/pre_dummy_epoch_size30.auto 	| valid_dl.dataset size: 2752
+INFO : 06-27 19:11 : ksdkt/pre_dummy_epoch_size30.auto 	| Start straightening pre-train
+INFO : 06-27 19:53 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting train
+INFO : 06-27 20:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Train Loss: 0.661883	AUC: 0.528476
+INFO : 06-27 20:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Valid Loss: 0.664522	AUC: 0.503977
+INFO : 06-27 20:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	KSVectorLoss: 6.19951
+INFO : 06-27 20:07 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	W1: 0.0111379	W2: 0.000994657
+INFO : 06-27 20:07 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.503977 refreshed and saved!
+INFO : 06-27 20:07 : ksdkt/pre_dummy_epoch_size30.auto 	| At 20:07 14m 34s passed ( - 276m 46s til 09:04) (100epoch 5.0%)
+INFO : 06-27 20:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Train Loss: 0.660162	AUC: 0.532641
+INFO : 06-27 20:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Valid Loss: 0.663103	AUC: 0.505602
+INFO : 06-27 20:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	KSVectorLoss: 6.19493
+INFO : 06-27 20:22 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	W1: 0.00998933	W2: 0.000797965
+INFO : 06-27 20:22 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.505602 refreshed and saved!
+INFO : 06-27 20:22 : ksdkt/pre_dummy_epoch_size30.auto 	| At 20:22 29m 15s passed ( - 263m 17s til 22:36) (200epoch 10.0%)
+INFO : 06-27 20:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Train Loss: 0.659082	AUC: 0.538938
+INFO : 06-27 20:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Valid Loss: 0.66276	AUC: 0.507002
+INFO : 06-27 20:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	KSVectorLoss: 6.19168
+INFO : 06-27 20:36 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	W1: 0.00973787	W2: 0.0007254
+INFO : 06-27 20:36 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.507002 refreshed and saved!
+INFO : 06-27 20:36 : ksdkt/pre_dummy_epoch_size30.auto 	| At 20:36 43m 48s passed ( - 248m 17s til 09:20) (300epoch 15.0%)
+INFO : 06-27 20:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Train Loss: 0.658585	AUC: 0.541607
+INFO : 06-27 20:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Valid Loss: 0.662653	AUC: 0.508198
+INFO : 06-27 20:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	KSVectorLoss: 6.19247
+INFO : 06-27 20:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	W1: 0.00975925	W2: 0.00069521
+INFO : 06-27 20:51 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.508198 refreshed and saved!
+INFO : 06-27 20:51 : ksdkt/pre_dummy_epoch_size30.auto 	| At 20:51 58m 14s passed ( - 232m 58s til 22:19) (400epoch 20.0%)
+INFO : 06-27 21:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Train Loss: 0.657963	AUC: 0.545544
+INFO : 06-27 21:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Valid Loss: 0.662609	AUC: 0.51016
+INFO : 06-27 21:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	KSVectorLoss: 6.18879
+INFO : 06-27 21:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	W1: 0.0099675	W2: 0.000681644
+INFO : 06-27 21:06 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.51016 refreshed and saved!
+INFO : 06-27 21:06 : ksdkt/pre_dummy_epoch_size30.auto 	| At 21:06 72m 55s passed ( - 218m 47s til 11:05) (500epoch 25.0%)
+INFO : 06-27 21:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Train Loss: 0.657106	AUC: 0.550967
+INFO : 06-27 21:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Valid Loss: 0.662583	AUC: 0.512305
+INFO : 06-27 21:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	KSVectorLoss: 6.18843
+INFO : 06-27 21:20 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	W1: 0.0102624	W2: 0.000678077
+INFO : 06-27 21:20 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.512305 refreshed and saved!
+INFO : 06-27 21:20 : ksdkt/pre_dummy_epoch_size30.auto 	| At 21:20 87m 36s passed ( - 204m 25s til 12:55) (600epoch 30.0%)
+INFO : 06-27 21:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Train Loss: 0.656592	AUC: 0.555393
+INFO : 06-27 21:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Valid Loss: 0.662564	AUC: 0.514492
+INFO : 06-27 21:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	KSVectorLoss: 6.18036
+INFO : 06-27 21:35 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	W1: 0.0105674	W2: 0.000680802
+INFO : 06-27 21:35 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.514492 refreshed and saved!
+INFO : 06-27 21:35 : ksdkt/pre_dummy_epoch_size30.auto 	| At 21:35 102m 12s passed ( - 189m 48s til 05:26) (700epoch 35.0%)
+INFO : 06-27 21:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Train Loss: 0.655677	AUC: 0.5607
+INFO : 06-27 21:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Valid Loss: 0.662673	AUC: 0.51579
+INFO : 06-27 21:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	KSVectorLoss: 6.17864
+INFO : 06-27 21:50 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	W1: 0.010887	W2: 0.000688457
+INFO : 06-27 21:50 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.51579 refreshed and saved!
+INFO : 06-27 21:50 : ksdkt/pre_dummy_epoch_size30.auto 	| At 21:50 116m 56s passed ( - 175m 24s til 12:34) (800epoch 40.0%)
+INFO : 06-27 22:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Train Loss: 0.655035	AUC: 0.564362
+INFO : 06-27 22:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Valid Loss: 0.662901	AUC: 0.51644
+INFO : 06-27 22:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	KSVectorLoss: 6.17604
+INFO : 06-27 22:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	W1: 0.0112377	W2: 0.000697173
+INFO : 06-27 22:06 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.516706 at epoch 870
+INFO : 06-27 22:06 : ksdkt/pre_dummy_epoch_size30.auto 	| At 22:06 132m 53s passed ( - 162m 25s til 02:56) (900epoch 45.0%)
+INFO : 06-27 22:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Train Loss: 0.65411	AUC: 0.56913
+INFO : 06-27 22:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Valid Loss: 0.663171	AUC: 0.51711
+INFO : 06-27 22:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	KSVectorLoss: 6.17225
+INFO : 06-27 22:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	W1: 0.0116218	W2: 0.000709807
+INFO : 06-27 22:21 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.517196 at epoch 990
+INFO : 06-27 22:21 : ksdkt/pre_dummy_epoch_size30.auto 	| At 22:21 148m 44s passed ( - 148m 44s til 07:17) (1000epoch 50.0%)
+INFO : 06-27 22:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Train Loss: 0.653265	AUC: 0.57381
+INFO : 06-27 22:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Valid Loss: 0.663503	AUC: 0.517827
+INFO : 06-27 22:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	KSVectorLoss: 6.16946
+INFO : 06-27 22:37 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	W1: 0.0119852	W2: 0.000722066
+INFO : 06-27 22:37 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.517827 refreshed and saved!
+INFO : 06-27 22:37 : ksdkt/pre_dummy_epoch_size30.auto 	| At 22:37 164m 40s passed ( - 134m 44s til 00:29) (1100epoch 55.0%)
+INFO : 06-27 22:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Train Loss: 0.652189	AUC: 0.578702
+INFO : 06-27 22:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Valid Loss: 0.663865	AUC: 0.518649
+INFO : 06-27 22:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	KSVectorLoss: 6.16666
+INFO : 06-27 22:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	W1: 0.0123862	W2: 0.000734859
+INFO : 06-27 22:53 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.518763 at epoch 1190
+INFO : 06-27 22:53 : ksdkt/pre_dummy_epoch_size30.auto 	| At 22:53 180m 32s passed ( - 120m 21s til 17:00) (1200epoch 60.0%)
+INFO : 06-27 23:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Train Loss: 0.651132	AUC: 0.583297
+INFO : 06-27 23:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Valid Loss: 0.664011	AUC: 0.51986
+INFO : 06-27 23:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	KSVectorLoss: 6.16403
+INFO : 06-27 23:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	W1: 0.0127315	W2: 0.000748913
+INFO : 06-27 23:09 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.51986 refreshed and saved!
+INFO : 06-27 23:09 : ksdkt/pre_dummy_epoch_size30.auto 	| At 23:09 196m 27s passed ( - 105m 46s til 20:01) (1300epoch 65.0%)
+INFO : 06-27 23:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Train Loss: 0.65044	AUC: 0.586615
+INFO : 06-27 23:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Valid Loss: 0.664206	AUC: 0.521141
+INFO : 06-27 23:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	KSVectorLoss: 6.15842
+INFO : 06-27 23:25 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	W1: 0.0131182	W2: 0.000763667
+INFO : 06-27 23:25 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.521233 at epoch 1380
+INFO : 06-27 23:25 : ksdkt/pre_dummy_epoch_size30.auto 	| At 23:25 211m 57s passed ( - 90m 50s til 02:56) (1400epoch 70.0%)
+INFO : 06-27 23:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Train Loss: 0.649342	AUC: 0.590773
+INFO : 06-27 23:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Valid Loss: 0.66446	AUC: 0.522184
+INFO : 06-27 23:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	KSVectorLoss: 6.16131
+INFO : 06-27 23:38 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	W1: 0.0134862	W2: 0.00077928
+INFO : 06-27 23:38 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.522425 at epoch 1490
+INFO : 06-27 23:38 : ksdkt/pre_dummy_epoch_size30.auto 	| At 23:38 225m 49s passed ( - 75m 16s til 15:05) (1500epoch 75.0%)
+INFO : 06-27 23:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Train Loss: 0.648354	AUC: 0.594936
+INFO : 06-27 23:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Valid Loss: 0.664444	AUC: 0.523771
+INFO : 06-27 23:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	KSVectorLoss: 6.15405
+INFO : 06-27 23:53 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	W1: 0.0139583	W2: 0.000796435
+INFO : 06-27 23:53 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.523771 refreshed and saved!
+INFO : 06-27 23:53 : ksdkt/pre_dummy_epoch_size30.auto 	| At 23:53 240m 27s passed ( - 60m 6s til 22:21) (1600epoch 80.0%)
+INFO : 06-28 00:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Train Loss: 0.647491	AUC: 0.597954
+INFO : 06-28 00:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Valid Loss: 0.664659	AUC: 0.524978
+INFO : 06-28 00:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	KSVectorLoss: 6.15074
+INFO : 06-28 00:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	W1: 0.0144171	W2: 0.000813068
+INFO : 06-28 00:06 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.524978 refreshed and saved!
+INFO : 06-28 00:06 : ksdkt/pre_dummy_epoch_size30.auto 	| At 00:06 253m 18s passed ( - 44m 42s til 02:28) (1700epoch 85.0%)
+INFO : 06-28 00:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Train Loss: 0.646519	AUC: 0.601217
+INFO : 06-28 00:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Valid Loss: 0.664857	AUC: 0.526331
+INFO : 06-28 00:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	KSVectorLoss: 6.14814
+INFO : 06-28 00:19 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	W1: 0.0148874	W2: 0.000833933
+INFO : 06-28 00:19 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.526331 refreshed and saved!
+INFO : 06-28 00:19 : ksdkt/pre_dummy_epoch_size30.auto 	| At 00:19 266m 22s passed ( - 29m 35s til 19:30) (1800epoch 90.0%)
+INFO : 06-28 00:32 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Train Loss: 0.645259	AUC: 0.605708
+INFO : 06-28 00:32 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Valid Loss: 0.664911	AUC: 0.527784
+INFO : 06-28 00:32 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	KSVectorLoss: 6.14484
+INFO : 06-28 00:32 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	W1: 0.0153119	W2: 0.000852926
+INFO : 06-28 00:32 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.5279 at epoch 1880
+INFO : 06-28 00:32 : ksdkt/pre_dummy_epoch_size30.auto 	| At 00:32 279m 40s passed ( - 14m 43s til 04:46) (1900epoch 95.0%)
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Train Loss: 0.644334	AUC: 0.608554
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Valid Loss: 0.665175	AUC: 0.528608
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	KSVectorLoss: 6.14631
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	W1: 0.0157286	W2: 0.00087195
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.528608 refreshed and saved!
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| At 00:46 293m 24s passed ( - 0m 0s til 00:46) (2000epoch 100.0%)
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| Loading model /code/output/20200622_English_v10_pretrain/pre_dummy_epoch_size30.auto/checkpoints/20200627-0212/f3_best.model
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| test_dl.dataset size: 3440
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting test
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test Loss: 0.656801	AUC: 0.59697
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test KSV Loss: 6.14553
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	W1: 0.0156577	W2: 0.00087088
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	r1: 0.655945
+INFO : 06-28 00:46 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test AUC(C): 0.601196
+INFO : 06-28 00:56 : ksdkt/pre_dummy_epoch_size30.auto 	| RP soft 	 good:bad = 705:236
+INFO : 06-28 00:56 : ksdkt/pre_dummy_epoch_size30.auto 	| RP hard 	 nDCG = 0.8910±0.1221
+INFO : 06-28 00:56 : ksdkt/pre_dummy_epoch_size30.auto 	| The model has 693,813 trainable parameters
+INFO : 06-28 00:56 : ksdkt/pre_dummy_epoch_size30.auto 	| train_dl.dataset size: 11008
+INFO : 06-28 00:56 : ksdkt/pre_dummy_epoch_size30.auto 	| valid_dl.dataset size: 2752
+INFO : 06-28 00:56 : ksdkt/pre_dummy_epoch_size30.auto 	| Start straightening pre-train
+INFO : 06-28 01:34 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting train
+INFO : 06-28 01:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Train Loss: 0.659123	AUC: 0.527338
+INFO : 06-28 01:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Valid Loss: 0.675147	AUC: 0.503355
+INFO : 06-28 01:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	KSVectorLoss: 6.24884
+INFO : 06-28 01:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	W1: 0.0103997	W2: 0.000928222
+INFO : 06-28 01:45 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.503426 at epoch 30
+INFO : 06-28 01:45 : ksdkt/pre_dummy_epoch_size30.auto 	| At 01:45 11m 17s passed ( - 214m 41s til 16:03) (100epoch 5.0%)
+INFO : 06-28 01:57 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Train Loss: 0.657427	AUC: 0.530798
+INFO : 06-28 01:57 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Valid Loss: 0.673948	AUC: 0.504072
+INFO : 06-28 01:57 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	KSVectorLoss: 6.24675
+INFO : 06-28 01:57 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	W1: 0.00922383	W2: 0.000767231
+INFO : 06-28 01:57 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.504072 refreshed and saved!
+INFO : 06-28 01:57 : ksdkt/pre_dummy_epoch_size30.auto 	| At 01:57 23m 1s passed ( - 207m 13s til 07:43) (200epoch 10.0%)
+INFO : 06-28 02:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Train Loss: 0.656869	AUC: 0.533214
+INFO : 06-28 02:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Valid Loss: 0.673652	AUC: 0.504746
+INFO : 06-28 02:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	KSVectorLoss: 6.2475
+INFO : 06-28 02:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	W1: 0.00895011	W2: 0.000707631
+INFO : 06-28 02:09 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.504746 refreshed and saved!
+INFO : 06-28 02:09 : ksdkt/pre_dummy_epoch_size30.auto 	| At 02:09 35m 8s passed ( - 199m 9s til 07:28) (300epoch 15.0%)
+INFO : 06-28 02:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Train Loss: 0.656461	AUC: 0.536075
+INFO : 06-28 02:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Valid Loss: 0.673543	AUC: 0.505126
+INFO : 06-28 02:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	KSVectorLoss: 6.24894
+INFO : 06-28 02:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	W1: 0.00892261	W2: 0.000678699
+INFO : 06-28 02:21 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.505126 refreshed and saved!
+INFO : 06-28 02:21 : ksdkt/pre_dummy_epoch_size30.auto 	| At 02:21 47m 29s passed ( - 189m 57s til 21:02) (400epoch 20.0%)
+INFO : 06-28 02:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Train Loss: 0.656198	AUC: 0.537508
+INFO : 06-28 02:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Valid Loss: 0.673498	AUC: 0.505609
+INFO : 06-28 02:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	KSVectorLoss: 6.25024
+INFO : 06-28 02:34 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	W1: 0.00899058	W2: 0.000663444
+INFO : 06-28 02:34 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.505609 refreshed and saved!
+INFO : 06-28 02:34 : ksdkt/pre_dummy_epoch_size30.auto 	| At 02:34 60m 42s passed ( - 182m 6s til 04:09) (500epoch 25.0%)
+INFO : 06-28 02:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Train Loss: 0.655866	AUC: 0.539765
+INFO : 06-28 02:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Valid Loss: 0.673487	AUC: 0.506038
+INFO : 06-28 02:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	KSVectorLoss: 6.25177
+INFO : 06-28 02:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	W1: 0.00913361	W2: 0.000652984
+INFO : 06-28 02:48 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.506038 refreshed and saved!
+INFO : 06-28 02:48 : ksdkt/pre_dummy_epoch_size30.auto 	| At 02:48 73m 58s passed ( - 172m 36s til 01:22) (600epoch 30.0%)
+INFO : 06-28 03:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Train Loss: 0.655631	AUC: 0.54126
+INFO : 06-28 03:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Valid Loss: 0.67347	AUC: 0.506498
+INFO : 06-28 03:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	KSVectorLoss: 6.25319
+INFO : 06-28 03:02 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	W1: 0.0092961	W2: 0.000646933
+INFO : 06-28 03:02 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.506498 refreshed and saved!
+INFO : 06-28 03:02 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:02 88m 3s passed ( - 163m 31s til 18:05) (700epoch 35.0%)
+INFO : 06-28 03:16 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Train Loss: 0.655476	AUC: 0.542515
+INFO : 06-28 03:16 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Valid Loss: 0.673477	AUC: 0.507248
+INFO : 06-28 03:16 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	KSVectorLoss: 6.25312
+INFO : 06-28 03:16 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	W1: 0.00945846	W2: 0.000643454
+INFO : 06-28 03:16 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.507283 at epoch 780
+INFO : 06-28 03:16 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:16 102m 39s passed ( - 153m 58s til 01:09) (800epoch 40.0%)
+INFO : 06-28 03:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Train Loss: 0.655222	AUC: 0.54509
+INFO : 06-28 03:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Valid Loss: 0.673437	AUC: 0.508603
+INFO : 06-28 03:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	KSVectorLoss: 6.25291
+INFO : 06-28 03:31 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	W1: 0.00963125	W2: 0.000641774
+INFO : 06-28 03:31 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.508611 at epoch 890
+INFO : 06-28 03:31 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:31 117m 2s passed ( - 143m 2s til 14:55) (900epoch 45.0%)
+INFO : 06-28 03:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Train Loss: 0.65474	AUC: 0.547983
+INFO : 06-28 03:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Valid Loss: 0.673423	AUC: 0.509904
+INFO : 06-28 03:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	KSVectorLoss: 6.25213
+INFO : 06-28 03:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	W1: 0.00980991	W2: 0.000639944
+INFO : 06-28 03:45 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.509904 refreshed and saved!
+INFO : 06-28 03:45 : ksdkt/pre_dummy_epoch_size30.auto 	| At 03:45 131m 40s passed ( - 131m 40s til 06:07) (1000epoch 50.0%)
+INFO : 06-28 04:00 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Train Loss: 0.654369	AUC: 0.55063
+INFO : 06-28 04:00 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Valid Loss: 0.673464	AUC: 0.510995
+INFO : 06-28 04:00 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	KSVectorLoss: 6.25097
+INFO : 06-28 04:00 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	W1: 0.00999233	W2: 0.000641362
+INFO : 06-28 04:00 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.510995 refreshed and saved!
+INFO : 06-28 04:00 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:00 146m 19s passed ( - 119m 43s til 17:54) (1100epoch 55.0%)
+INFO : 06-28 04:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Train Loss: 0.654037	AUC: 0.553063
+INFO : 06-28 04:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Valid Loss: 0.673567	AUC: 0.512126
+INFO : 06-28 04:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	KSVectorLoss: 6.24945
+INFO : 06-28 04:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	W1: 0.0101845	W2: 0.000642674
+INFO : 06-28 04:15 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.512261 at epoch 1190
+INFO : 06-28 04:15 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:15 160m 55s passed ( - 107m 17s til 09:45) (1200epoch 60.0%)
+INFO : 06-28 04:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Train Loss: 0.653542	AUC: 0.556586
+INFO : 06-28 04:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Valid Loss: 0.673381	AUC: 0.514494
+INFO : 06-28 04:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	KSVectorLoss: 6.25014
+INFO : 06-28 04:29 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	W1: 0.0104393	W2: 0.000645234
+INFO : 06-28 04:29 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.514509 at epoch 1280
+INFO : 06-28 04:29 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:29 175m 19s passed ( - 94m 24s til 15:49) (1300epoch 65.0%)
+INFO : 06-28 04:44 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Train Loss: 0.652913	AUC: 0.560264
+INFO : 06-28 04:44 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Valid Loss: 0.67336	AUC: 0.517179
+INFO : 06-28 04:44 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	KSVectorLoss: 6.2435
+INFO : 06-28 04:44 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	W1: 0.0107392	W2: 0.000647657
+INFO : 06-28 04:44 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.517179 refreshed and saved!
+INFO : 06-28 04:44 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:44 190m 1s passed ( - 81m 26s til 14:01) (1400epoch 70.0%)
+INFO : 06-28 04:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Train Loss: 0.652528	AUC: 0.562251
+INFO : 06-28 04:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Valid Loss: 0.673521	AUC: 0.518305
+INFO : 06-28 04:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	KSVectorLoss: 6.23894
+INFO : 06-28 04:58 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	W1: 0.0109766	W2: 0.000653545
+INFO : 06-28 04:58 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.518311 at epoch 1480
+INFO : 06-28 04:58 : ksdkt/pre_dummy_epoch_size30.auto 	| At 04:58 204m 30s passed ( - 68m 10s til 05:45) (1500epoch 75.0%)
+INFO : 06-28 05:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Train Loss: 0.651571	AUC: 0.567721
+INFO : 06-28 05:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Valid Loss: 0.673655	AUC: 0.519346
+INFO : 06-28 05:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	KSVectorLoss: 6.23479
+INFO : 06-28 05:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	W1: 0.0111885	W2: 0.000659848
+INFO : 06-28 05:13 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.520415 at epoch 1580
+INFO : 06-28 05:13 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:13 219m 1s passed ( - 54m 45s til 13:04) (1600epoch 80.0%)
+INFO : 06-28 05:27 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Train Loss: 0.650693	AUC: 0.572179
+INFO : 06-28 05:27 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Valid Loss: 0.673411	AUC: 0.52221
+INFO : 06-28 05:27 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	KSVectorLoss: 6.2333
+INFO : 06-28 05:27 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	W1: 0.011455	W2: 0.000668101
+INFO : 06-28 05:27 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.52221 refreshed and saved!
+INFO : 06-28 05:27 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:27 233m 38s passed ( - 41m 13s til 00:28) (1700epoch 85.0%)
+INFO : 06-28 05:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Train Loss: 0.649817	AUC: 0.576224
+INFO : 06-28 05:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Valid Loss: 0.673362	AUC: 0.523535
+INFO : 06-28 05:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	KSVectorLoss: 6.23378
+INFO : 06-28 05:42 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	W1: 0.0116889	W2: 0.000677645
+INFO : 06-28 05:42 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.523535 refreshed and saved!
+INFO : 06-28 05:42 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:42 248m 7s passed ( - 27m 34s til 09:51) (1800epoch 90.0%)
+INFO : 06-28 05:56 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Train Loss: 0.648948	AUC: 0.580166
+INFO : 06-28 05:56 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Valid Loss: 0.673598	AUC: 0.525015
+INFO : 06-28 05:56 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	KSVectorLoss: 6.22462
+INFO : 06-28 05:56 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	W1: 0.0119848	W2: 0.00068745
+INFO : 06-28 05:56 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.525132 at epoch 1890
+INFO : 06-28 05:56 : ksdkt/pre_dummy_epoch_size30.auto 	| At 05:56 262m 47s passed ( - 13m 49s til 02:44) (1900epoch 95.0%)
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Train Loss: 0.648329	AUC: 0.583223
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Valid Loss: 0.673726	AUC: 0.526225
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	KSVectorLoss: 6.22068
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	W1: 0.0122617	W2: 0.000697182
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| Best AUC 0.526717 at epoch 1990
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| At 06:11 277m 15s passed ( - 0m 0s til 06:11) (2000epoch 100.0%)
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| Loading model /code/output/20200622_English_v10_pretrain/pre_dummy_epoch_size30.auto/checkpoints/20200627-0212/f4_best.model
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| test_dl.dataset size: 3440
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting test
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test Loss: 0.66329	AUC: 0.573925
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test KSV Loss: 6.17903
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	W1: 0.0121853	W2: 0.000693402
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	r1: 0.665116
+INFO : 06-28 06:11 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test AUC(C): 0.565765
+INFO : 06-28 06:22 : ksdkt/pre_dummy_epoch_size30.auto 	| RP soft 	 good:bad = 832:109
+INFO : 06-28 06:22 : ksdkt/pre_dummy_epoch_size30.auto 	| RP hard 	 nDCG = 0.9387±0.0931
+INFO : 06-28 06:22 : ksdkt/pre_dummy_epoch_size30.auto 	| fintrain_dl.dataset size: 13760
+INFO : 06-28 06:22 : ksdkt/pre_dummy_epoch_size30.auto 	| fintest_dl.dataset size: 3440
+INFO : 06-28 06:22 : ksdkt/pre_dummy_epoch_size30.auto 	| The model has 693,813 trainable parameters
+INFO : 06-28 06:22 : ksdkt/pre_dummy_epoch_size30.auto 	| Start straightening pre-train
+INFO : 06-28 07:06 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting train
+INFO : 06-28 07:24 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 100	Train Loss: 0.660705	AUC: 0.527147
+INFO : 06-28 07:24 : ksdkt/pre_dummy_epoch_size30.auto 	| At 07:24 17m 16s passed ( - 328m 21s til 19:52) (100epoch 5.0%)
+INFO : 06-28 07:41 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 200	Train Loss: 0.659414	AUC: 0.530833
+INFO : 06-28 07:41 : ksdkt/pre_dummy_epoch_size30.auto 	| At 07:41 34m 59s passed ( - 314m 54s til 11:25) (200epoch 10.0%)
+INFO : 06-28 07:57 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 300	Train Loss: 0.658799	AUC: 0.534236
+INFO : 06-28 07:57 : ksdkt/pre_dummy_epoch_size30.auto 	| At 07:57 50m 24s passed ( - 285m 39s til 00:23) (300epoch 15.0%)
+INFO : 06-28 08:13 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 400	Train Loss: 0.658428	AUC: 0.53676
+INFO : 06-28 08:13 : ksdkt/pre_dummy_epoch_size30.auto 	| At 08:13 66m 31s passed ( - 266m 4s til 01:54) (400epoch 20.0%)
+INFO : 06-28 08:30 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 500	Train Loss: 0.657965	AUC: 0.539804
+INFO : 06-28 08:30 : ksdkt/pre_dummy_epoch_size30.auto 	| At 08:30 83m 27s passed ( - 250m 23s til 22:24) (500epoch 25.0%)
+INFO : 06-28 08:48 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 600	Train Loss: 0.657535	AUC: 0.543289
+INFO : 06-28 08:48 : ksdkt/pre_dummy_epoch_size30.auto 	| At 08:48 101m 33s passed ( - 236m 58s til 23:47) (600epoch 30.0%)
+INFO : 06-28 09:06 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 700	Train Loss: 0.65705	AUC: 0.547097
+INFO : 06-28 09:06 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:06 119m 49s passed ( - 222m 31s til 02:32) (700epoch 35.0%)
+INFO : 06-28 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 800	Train Loss: 0.656356	AUC: 0.551506
+INFO : 06-28 09:26 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:26 139m 16s passed ( - 208m 54s til 01:53) (800epoch 40.0%)
+INFO : 06-28 09:45 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 900	Train Loss: 0.655456	AUC: 0.557661
+INFO : 06-28 09:45 : ksdkt/pre_dummy_epoch_size30.auto 	| At 09:45 158m 48s passed ( - 194m 6s til 18:36) (900epoch 45.0%)
+INFO : 06-28 10:05 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1000	Train Loss: 0.654605	AUC: 0.56257
+INFO : 06-28 10:05 : ksdkt/pre_dummy_epoch_size30.auto 	| At 10:05 178m 25s passed ( - 178m 25s til 03:48) (1000epoch 50.0%)
+INFO : 06-28 10:24 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1100	Train Loss: 0.653734	AUC: 0.567162
+INFO : 06-28 10:24 : ksdkt/pre_dummy_epoch_size30.auto 	| At 10:24 197m 59s passed ( - 161m 59s til 22:54) (1100epoch 55.0%)
+INFO : 06-28 10:44 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1200	Train Loss: 0.652737	AUC: 0.572778
+INFO : 06-28 10:44 : ksdkt/pre_dummy_epoch_size30.auto 	| At 10:44 217m 37s passed ( - 145m 4s til 05:54) (1200epoch 60.0%)
+INFO : 06-28 11:03 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1300	Train Loss: 0.651792	AUC: 0.577199
+INFO : 06-28 11:03 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:03 237m 4s passed ( - 127m 39s til 22:39) (1300epoch 65.0%)
+INFO : 06-28 11:21 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1400	Train Loss: 0.650923	AUC: 0.581174
+INFO : 06-28 11:21 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:21 255m 2s passed ( - 109m 18s til 19:26) (1400epoch 70.0%)
+INFO : 06-28 11:39 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1500	Train Loss: 0.649872	AUC: 0.585908
+INFO : 06-28 11:39 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:39 272m 46s passed ( - 90m 55s til 02:25) (1500epoch 75.0%)
+INFO : 06-28 11:57 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1600	Train Loss: 0.648988	AUC: 0.589426
+INFO : 06-28 11:57 : ksdkt/pre_dummy_epoch_size30.auto 	| At 11:57 290m 43s passed ( - 72m 40s til 07:30) (1600epoch 80.0%)
+INFO : 06-28 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1700	Train Loss: 0.647829	AUC: 0.593887
+INFO : 06-28 12:15 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:15 308m 40s passed ( - 54m 28s til 21:47) (1700epoch 85.0%)
+INFO : 06-28 12:33 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1800	Train Loss: 0.646868	AUC: 0.597326
+INFO : 06-28 12:33 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:33 326m 41s passed ( - 36m 17s til 10:45) (1800epoch 90.0%)
+INFO : 06-28 12:51 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 1900	Train Loss: 0.645826	AUC: 0.60103
+INFO : 06-28 12:51 : ksdkt/pre_dummy_epoch_size30.auto 	| At 12:51 344m 49s passed ( - 18m 8s til 10:34) (1900epoch 95.0%)
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Epoch 2000	Train Loss: 0.644479	AUC: 0.6056
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| At 13:09 363m 1s passed ( - 0m 0s til 13:09) (2000epoch 100.0%)
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| Starting test
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test Loss: 0.669458	AUC: 0.551503
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test KSV Loss: 6.19368
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	W1: 0.0161142	W2: 0.000832558
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	r1: 0.655046
+INFO : 06-28 13:09 : ksdkt/pre_dummy_epoch_size30.auto 	| 	Test AUC(C): 0.606258
+INFO : 06-28 13:20 : ksdkt/pre_dummy_epoch_size30.auto 	| RP soft 	 good:bad = 732:209
+INFO : 06-28 13:20 : ksdkt/pre_dummy_epoch_size30.auto 	| RP hard 	 nDCG = 0.8980±0.1240
