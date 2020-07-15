@@ -1,0 +1,30 @@
+INFO : 07-14 09:35 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| PyTorch: 1.4.0
+INFO : 07-14 09:35 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| Using Device: cuda
+INFO : 07-14 09:36 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| The model has 525,926 trainable parameters
+INFO : 07-14 09:36 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| train_dl.dataset size: 9152
+INFO : 07-14 09:36 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| valid_dl.dataset size: 2654
+INFO : 07-14 09:36 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| Starting train
+INFO : 07-14 09:40 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 100	Train Loss: 0.677254	AUC: 0.584032
+INFO : 07-14 09:40 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 100	Valid Loss: 0.696698	AUC: 0.473223
+INFO : 07-14 09:40 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 100	KSVectorLoss: 13.8114
+INFO : 07-14 09:40 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 100	W1: 0.00120806	W2: 6.47917e-06
+INFO : 07-14 09:40 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| Best AUC 0.473223 refreshed and saved!
+INFO : 07-14 09:40 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| At 09:40 4m 44s passed ( - 89m 57s til 07:29) (100epoch 5.0%)
+INFO : 07-14 09:45 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 200	Train Loss: 0.675734	AUC: 0.587656
+INFO : 07-14 09:45 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 200	Valid Loss: 0.697041	AUC: 0.474656
+INFO : 07-14 09:45 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 200	KSVectorLoss: 13.7416
+INFO : 07-14 09:45 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 200	W1: 0.00179583	W2: 1.40942e-05
+INFO : 07-14 09:45 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| Best AUC 0.474656 refreshed and saved!
+INFO : 07-14 09:45 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| At 09:45 9m 25s passed ( - 84m 49s til 05:39) (200epoch 10.0%)
+INFO : 07-14 09:50 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 300	Train Loss: 0.675043	AUC: 0.590442
+INFO : 07-14 09:50 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 300	Valid Loss: 0.696952	AUC: 0.476144
+INFO : 07-14 09:50 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 300	KSVectorLoss: 13.6243
+INFO : 07-14 09:50 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 300	W1: 0.0021601	W2: 1.90522e-05
+INFO : 07-14 09:50 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| Best AUC 0.476144 refreshed and saved!
+INFO : 07-14 09:50 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| At 09:50 14m 7s passed ( - 80m 4s til 06:07) (300epoch 15.0%)
+INFO : 07-14 09:54 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 400	Train Loss: 0.674322	AUC: 0.593088
+INFO : 07-14 09:54 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 400	Valid Loss: 0.696718	AUC: 0.477608
+INFO : 07-14 09:54 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 400	KSVectorLoss: 13.57
+INFO : 07-14 09:54 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| 	Epoch 400	W1: 0.00265543	W2: 2.75608e-05
+INFO : 07-14 09:54 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| Best AUC 0.477608 refreshed and saved!
+INFO : 07-14 09:54 : ksdkt/20200714_Psyence_neo_dummy_cusr400 	| At 09:54 18m 51s passed ( - 75m 27s til 22:30) (400epoch 20.0%)
