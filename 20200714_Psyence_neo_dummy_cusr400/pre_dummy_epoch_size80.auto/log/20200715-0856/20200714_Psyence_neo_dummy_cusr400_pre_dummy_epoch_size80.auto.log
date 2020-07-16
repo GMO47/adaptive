@@ -1,0 +1,182 @@
+INFO : 07-15 08:56 : ksdkt/pre_dummy_epoch_size80.auto 	| PyTorch: 1.4.0
+INFO : 07-15 08:56 : ksdkt/pre_dummy_epoch_size80.auto 	| Using Device: cuda
+INFO : 07-15 08:56 : ksdkt/pre_dummy_epoch_size80.auto 	| The model has 525,926 trainable parameters
+INFO : 07-15 08:56 : ksdkt/pre_dummy_epoch_size80.auto 	| train_dl.dataset size: 9810
+INFO : 07-15 08:56 : ksdkt/pre_dummy_epoch_size80.auto 	| valid_dl.dataset size: 2570
+INFO : 07-15 08:56 : ksdkt/pre_dummy_epoch_size80.auto 	| Start straightening pre-train
+INFO : 07-15 09:02 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting train
+INFO : 07-15 09:05 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Train Loss: 0.676382	AUC: 0.589097
+INFO : 07-15 09:05 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Valid Loss: 0.77811	AUC: 0.517938
+INFO : 07-15 09:05 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	KSVectorLoss: 17.7552
+INFO : 07-15 09:05 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	W1: 0.0243474	W2: 0.00155664
+INFO : 07-15 09:05 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.531449 at epoch 10
+INFO : 07-15 09:05 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:05 2m 51s passed ( - 54m 22s til 03:27) (100epoch 5.0%)
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Train Loss: 0.674932	AUC: 0.592807
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Valid Loss: 0.772616	AUC: 0.516894
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	KSVectorLoss: 17.9355
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	W1: 0.0225764	W2: 0.00133379
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.531449 at epoch 10
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| Early stopping.
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| Loading model /code/output/20200714_Psyence_neo_dummy_cusr400/pre_dummy_epoch_size80.auto/checkpoints/20200715-0856/f0_best.model
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| test_dl.dataset size: 3208
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting test
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test Loss: 0.81449	AUC: 0.540346
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test KSV Loss: 14.39
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	W1: 0.037058	W2: 0.00377031
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	r1: 0.750114
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test AUC(C): 0.618887
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| RP soft 	 good:bad = 178:0
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| RP hard 	 nDCG = 0.9776±0.0458
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| The model has 525,926 trainable parameters
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| train_dl.dataset size: 9962
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| valid_dl.dataset size: 2418
+INFO : 07-15 09:08 : ksdkt/pre_dummy_epoch_size80.auto 	| Start straightening pre-train
+INFO : 07-15 09:14 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting train
+INFO : 07-15 09:16 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Train Loss: 0.673748	AUC: 0.595028
+INFO : 07-15 09:16 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Valid Loss: 0.974803	AUC: 0.495822
+INFO : 07-15 09:16 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	KSVectorLoss: 18.8728
+INFO : 07-15 09:16 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	W1: 0.0251824	W2: 0.00219851
+INFO : 07-15 09:16 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.501576 at epoch 10
+INFO : 07-15 09:16 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:16 2m 54s passed ( - 55m 8s til 18:12) (100epoch 5.0%)
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Train Loss: 0.672316	AUC: 0.598969
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Valid Loss: 0.97713	AUC: 0.496335
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	KSVectorLoss: 18.8478
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	W1: 0.0249825	W2: 0.00213538
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.501576 at epoch 10
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| Early stopping.
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| Loading model /code/output/20200714_Psyence_neo_dummy_cusr400/pre_dummy_epoch_size80.auto/checkpoints/20200715-0856/f1_best.model
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| test_dl.dataset size: 3208
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting test
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test Loss: 0.838927	AUC: 0.533302
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test KSV Loss: 15.9448
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	W1: 0.0323725	W2: 0.00291615
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	r1: 0.785202
+INFO : 07-15 09:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test AUC(C): 0.610254
+INFO : 07-15 09:20 : ksdkt/pre_dummy_epoch_size80.auto 	| RP soft 	 good:bad = 177:1
+INFO : 07-15 09:20 : ksdkt/pre_dummy_epoch_size80.auto 	| RP hard 	 nDCG = 0.9690±0.0574
+INFO : 07-15 09:20 : ksdkt/pre_dummy_epoch_size80.auto 	| The model has 525,926 trainable parameters
+INFO : 07-15 09:20 : ksdkt/pre_dummy_epoch_size80.auto 	| train_dl.dataset size: 9709
+INFO : 07-15 09:20 : ksdkt/pre_dummy_epoch_size80.auto 	| valid_dl.dataset size: 2671
+INFO : 07-15 09:20 : ksdkt/pre_dummy_epoch_size80.auto 	| Start straightening pre-train
+INFO : 07-15 09:25 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting train
+INFO : 07-15 09:28 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Train Loss: 0.676635	AUC: 0.588749
+INFO : 07-15 09:28 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Valid Loss: 0.796031	AUC: 0.514722
+INFO : 07-15 09:28 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	KSVectorLoss: 16.7507
+INFO : 07-15 09:28 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	W1: 0.0133485	W2: 0.000805686
+INFO : 07-15 09:28 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.518616 at epoch 10
+INFO : 07-15 09:28 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:28 2m 48s passed ( - 53m 23s til 02:37) (100epoch 5.0%)
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Train Loss: 0.675561	AUC: 0.59219
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Valid Loss: 0.793058	AUC: 0.51709
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	KSVectorLoss: 16.5351
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	W1: 0.0131892	W2: 0.00073974
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.518616 at epoch 10
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| Early stopping.
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| Loading model /code/output/20200714_Psyence_neo_dummy_cusr400/pre_dummy_epoch_size80.auto/checkpoints/20200715-0856/f2_best.model
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| test_dl.dataset size: 3208
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting test
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test Loss: 0.817244	AUC: 0.54108
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test KSV Loss: 15.6248
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	W1: 0.0250383	W2: 0.00201541
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	r1: 0.784134
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test AUC(C): 0.594664
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| RP soft 	 good:bad = 176:2
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| RP hard 	 nDCG = 0.9796±0.0570
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| The model has 525,926 trainable parameters
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| train_dl.dataset size: 9887
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| valid_dl.dataset size: 2493
+INFO : 07-15 09:31 : ksdkt/pre_dummy_epoch_size80.auto 	| Start straightening pre-train
+INFO : 07-15 09:37 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting train
+INFO : 07-15 09:40 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Train Loss: 0.676416	AUC: 0.589222
+INFO : 07-15 09:40 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Valid Loss: 0.792616	AUC: 0.525596
+INFO : 07-15 09:40 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	KSVectorLoss: 15.8884
+INFO : 07-15 09:40 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	W1: 0.00979028	W2: 0.000456437
+INFO : 07-15 09:40 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.525596 refreshed and saved!
+INFO : 07-15 09:40 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:40 2m 51s passed ( - 54m 27s til 01:55) (100epoch 5.0%)
+INFO : 07-15 09:43 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Train Loss: 0.674934	AUC: 0.59381
+INFO : 07-15 09:43 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Valid Loss: 0.792593	AUC: 0.526559
+INFO : 07-15 09:43 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	KSVectorLoss: 15.4984
+INFO : 07-15 09:43 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	W1: 0.0101109	W2: 0.000434321
+INFO : 07-15 09:43 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.526559 refreshed and saved!
+INFO : 07-15 09:43 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:43 5m 45s passed ( - 51m 48s til 01:04) (200epoch 10.0%)
+INFO : 07-15 09:46 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 300	Train Loss: 0.673949	AUC: 0.596774
+INFO : 07-15 09:46 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 300	Valid Loss: 0.793302	AUC: 0.527721
+INFO : 07-15 09:46 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 300	KSVectorLoss: 15.365
+INFO : 07-15 09:46 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 300	W1: 0.0110336	W2: 0.000448193
+INFO : 07-15 09:46 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.527721 refreshed and saved!
+INFO : 07-15 09:46 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:46 8m 38s passed ( - 48m 56s til 14:32) (300epoch 15.0%)
+INFO : 07-15 09:48 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 400	Train Loss: 0.672985	AUC: 0.599532
+INFO : 07-15 09:48 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 400	Valid Loss: 0.793788	AUC: 0.5283
+INFO : 07-15 09:48 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 400	KSVectorLoss: 15.3005
+INFO : 07-15 09:48 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 400	W1: 0.0120569	W2: 0.000478235
+INFO : 07-15 09:48 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.5283 refreshed and saved!
+INFO : 07-15 09:48 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:48 11m 30s passed ( - 46m 0s til 03:17) (400epoch 20.0%)
+INFO : 07-15 09:51 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 500	Train Loss: 0.672442	AUC: 0.601102
+INFO : 07-15 09:51 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 500	Valid Loss: 0.793688	AUC: 0.52849
+INFO : 07-15 09:51 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 500	KSVectorLoss: 15.2931
+INFO : 07-15 09:51 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 500	W1: 0.0130308	W2: 0.000513342
+INFO : 07-15 09:51 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.528529 at epoch 470
+INFO : 07-15 09:51 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:51 14m 21s passed ( - 43m 5s til 21:35) (500epoch 25.0%)
+INFO : 07-15 09:54 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 600	Train Loss: 0.671846	AUC: 0.602978
+INFO : 07-15 09:54 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 600	Valid Loss: 0.794034	AUC: 0.528618
+INFO : 07-15 09:54 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 600	KSVectorLoss: 15.2942
+INFO : 07-15 09:54 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 600	W1: 0.0139345	W2: 0.000551419
+INFO : 07-15 09:54 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.52866 at epoch 540
+INFO : 07-15 09:54 : ksdkt/pre_dummy_epoch_size80.auto 	| At 09:54 17m 13s passed ( - 40m 12s til 20:21) (600epoch 30.0%)
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 700	Train Loss: 0.671253	AUC: 0.604717
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 700	Valid Loss: 0.794197	AUC: 0.528563
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 700	KSVectorLoss: 15.301
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 700	W1: 0.0147996	W2: 0.000591312
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.52866 at epoch 540
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| Early stopping.
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| Loading model /code/output/20200714_Psyence_neo_dummy_cusr400/pre_dummy_epoch_size80.auto/checkpoints/20200715-0856/f3_best.model
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| test_dl.dataset size: 3208
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting test
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test Loss: 0.751297	AUC: 0.562336
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test KSV Loss: 14.054
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	W1: 0.0178624	W2: 0.00108309
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	r1: 0.754682
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test AUC(C): 0.555975
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| RP soft 	 good:bad = 174:4
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| RP hard 	 nDCG = 0.9783±0.0527
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| The model has 525,926 trainable parameters
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| train_dl.dataset size: 10152
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| valid_dl.dataset size: 2228
+INFO : 07-15 09:57 : ksdkt/pre_dummy_epoch_size80.auto 	| Start straightening pre-train
+INFO : 07-15 10:03 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting train
+INFO : 07-15 10:06 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Train Loss: 0.676935	AUC: 0.587358
+INFO : 07-15 10:06 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Valid Loss: 1.14252	AUC: 0.486974
+INFO : 07-15 10:06 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	KSVectorLoss: 20.9723
+INFO : 07-15 10:06 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	W1: 0.0199149	W2: 0.00201166
+INFO : 07-15 10:06 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.487501 at epoch 10
+INFO : 07-15 10:06 : ksdkt/pre_dummy_epoch_size80.auto 	| At 10:06 2m 56s passed ( - 55m 56s til 07:11) (100epoch 5.0%)
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Train Loss: 0.675678	AUC: 0.591539
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	Valid Loss: 1.14487	AUC: 0.487351
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	KSVectorLoss: 20.8557
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 200	W1: 0.0201988	W2: 0.001933
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| Best AUC 0.487501 at epoch 10
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| Early stopping.
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| Loading model /code/output/20200714_Psyence_neo_dummy_cusr400/pre_dummy_epoch_size80.auto/checkpoints/20200715-0856/f4_best.model
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| test_dl.dataset size: 3208
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting test
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test Loss: 0.919893	AUC: 0.537857
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test KSV Loss: 15.2421
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	W1: 0.0228518	W2: 0.00226499
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	r1: 0.854948
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test AUC(C): 0.588851
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| RP soft 	 good:bad = 176:2
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| RP hard 	 nDCG = 0.9810±0.0568
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| fintrain_dl.dataset size: 12685
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| fintest_dl.dataset size: 3208
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| The model has 525,926 trainable parameters
+INFO : 07-15 10:09 : ksdkt/pre_dummy_epoch_size80.auto 	| Start straightening pre-train
+INFO : 07-15 10:15 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting train
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Epoch 100	Train Loss: 0.675244	AUC: 0.590207
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| At 10:19 3m 42s passed ( - 0m 44s til 23:58) (100epoch 83.3%)
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| Starting test
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test Loss: 0.677612	AUC: 0.586753
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test KSV Loss: 12.3362
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	W1: 0.0168696	W2: 0.00106635
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	r1: 0.676986
+INFO : 07-15 10:19 : ksdkt/pre_dummy_epoch_size80.auto 	| 	Test AUC(C): 0.597695
+INFO : 07-15 10:20 : ksdkt/pre_dummy_epoch_size80.auto 	| RP soft 	 good:bad = 178:0
+INFO : 07-15 10:20 : ksdkt/pre_dummy_epoch_size80.auto 	| RP hard 	 nDCG = 0.9963±0.0141
