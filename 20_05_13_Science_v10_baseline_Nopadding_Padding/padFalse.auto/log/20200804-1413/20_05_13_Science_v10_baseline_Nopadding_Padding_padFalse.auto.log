@@ -1,0 +1,162 @@
+INFO : 08-04 14:13 : ksdkt/padFalse.auto 	| PyTorch: 1.5.0
+INFO : 08-04 14:13 : ksdkt/padFalse.auto 	| Using Device: cpu
+INFO : 08-04 14:13 : ksdkt/padFalse.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 14:13 : ksdkt/padFalse.auto 	| train_dl.dataset size: 2048
+INFO : 08-04 14:13 : ksdkt/padFalse.auto 	| valid_dl.dataset size: 512
+INFO : 08-04 14:13 : ksdkt/padFalse.auto 	| Starting train
+INFO : 08-04 14:23 : ksdkt/padFalse.auto 	| 	Epoch 100	Train Loss: 0.684101	AUC: 0.512509
+INFO : 08-04 14:23 : ksdkt/padFalse.auto 	| 	Epoch 100	Valid Loss: 0.684622	AUC: 0.501025
+INFO : 08-04 14:23 : ksdkt/padFalse.auto 	| 	Epoch 100	KSVectorLoss: 6.56778
+INFO : 08-04 14:23 : ksdkt/padFalse.auto 	| 	Epoch 100	W1: 0.000617169	W2: 8.22707e-07
+INFO : 08-04 14:23 : ksdkt/padFalse.auto 	| Best AUC 0.501025 refreshed and saved!
+INFO : 08-04 14:23 : ksdkt/padFalse.auto 	| At 14:23 10m 41s passed ( - 203m 8s til 16:07) (100epoch 5.0%)
+INFO : 08-04 14:34 : ksdkt/padFalse.auto 	| 	Epoch 200	Train Loss: 0.675731	AUC: 0.522317
+INFO : 08-04 14:34 : ksdkt/padFalse.auto 	| 	Epoch 200	Valid Loss: 0.677015	AUC: 0.503593
+INFO : 08-04 14:34 : ksdkt/padFalse.auto 	| 	Epoch 200	KSVectorLoss: 6.49349
+INFO : 08-04 14:34 : ksdkt/padFalse.auto 	| 	Epoch 200	W1: 0.00104244	W2: 3.3623e-06
+INFO : 08-04 14:34 : ksdkt/padFalse.auto 	| Best AUC 0.503593 refreshed and saved!
+INFO : 08-04 14:34 : ksdkt/padFalse.auto 	| At 14:34 21m 30s passed ( - 193m 35s til 08:14) (200epoch 10.0%)
+INFO : 08-04 14:45 : ksdkt/padFalse.auto 	| 	Epoch 300	Train Loss: 0.668775	AUC: 0.524893
+INFO : 08-04 14:45 : ksdkt/padFalse.auto 	| 	Epoch 300	Valid Loss: 0.671018	AUC: 0.504886
+INFO : 08-04 14:45 : ksdkt/padFalse.auto 	| 	Epoch 300	KSVectorLoss: 6.39348
+INFO : 08-04 14:45 : ksdkt/padFalse.auto 	| 	Epoch 300	W1: 0.0019687	W2: 1.32638e-05
+INFO : 08-04 14:45 : ksdkt/padFalse.auto 	| Best AUC 0.504886 refreshed and saved!
+INFO : 08-04 14:45 : ksdkt/padFalse.auto 	| At 14:45 32m 5s passed ( - 181m 51s til 20:19) (300epoch 15.0%)
+INFO : 08-04 14:55 : ksdkt/padFalse.auto 	| 	Epoch 400	Train Loss: 0.666314	AUC: 0.526923
+INFO : 08-04 14:55 : ksdkt/padFalse.auto 	| 	Epoch 400	Valid Loss: 0.669398	AUC: 0.504134
+INFO : 08-04 14:55 : ksdkt/padFalse.auto 	| 	Epoch 400	KSVectorLoss: 6.31929
+INFO : 08-04 14:55 : ksdkt/padFalse.auto 	| 	Epoch 400	W1: 0.00277878	W2: 2.57159e-05
+INFO : 08-04 14:55 : ksdkt/padFalse.auto 	| Best AUC 0.504886 at epoch 300
+INFO : 08-04 14:55 : ksdkt/padFalse.auto 	| At 14:55 42m 41s passed ( - 170m 45s til 00:08) (400epoch 20.0%)
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Epoch 500	Train Loss: 0.6658	AUC: 0.52892
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Epoch 500	Valid Loss: 0.669291	AUC: 0.503313
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Epoch 500	KSVectorLoss: 6.29096
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Epoch 500	W1: 0.00307341	W2: 3.11883e-05
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| Best AUC 0.504886 at epoch 300
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| Early stopping.
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| Loading model /code/output/20_05_13_Science_v10_baseline_Nopadding_Padding/padFalse.auto/checkpoints/20200804-1413/f0_best.model
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| test_dl.dataset size: 640
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| Starting test
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Test Loss: 0.670764	AUC: 0.509847
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Test KSV Loss: 6.39412
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	W1: 0.00197003	W2: 1.32721e-05
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	r1: 0.671131
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| 	Test AUC(C): 0.510625
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| RP soft 	 good:bad = 89:89
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| RP hard 	 nDCG = 0.7730±0.1544
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| train_dl.dataset size: 2048
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| valid_dl.dataset size: 512
+INFO : 08-04 15:06 : ksdkt/padFalse.auto 	| Starting train
+INFO : 08-04 15:17 : ksdkt/padFalse.auto 	| 	Epoch 100	Train Loss: 0.68425	AUC: 0.512152
+INFO : 08-04 15:17 : ksdkt/padFalse.auto 	| 	Epoch 100	Valid Loss: 0.684676	AUC: 0.50596
+INFO : 08-04 15:17 : ksdkt/padFalse.auto 	| 	Epoch 100	KSVectorLoss: 6.57053
+INFO : 08-04 15:17 : ksdkt/padFalse.auto 	| 	Epoch 100	W1: 0.000603784	W2: 7.84523e-07
+INFO : 08-04 15:17 : ksdkt/padFalse.auto 	| Best AUC 0.507802 at epoch 10
+INFO : 08-04 15:17 : ksdkt/padFalse.auto 	| At 15:17 10m 32s passed ( - 200m 16s til 21:15) (100epoch 5.0%)
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Epoch 200	Train Loss: 0.676135	AUC: 0.521111
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Epoch 200	Valid Loss: 0.677487	AUC: 0.501176
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Epoch 200	KSVectorLoss: 6.49955
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Epoch 200	W1: 0.000990241	W2: 3.02595e-06
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| Best AUC 0.507802 at epoch 10
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| Early stopping.
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| Loading model /code/output/20_05_13_Science_v10_baseline_Nopadding_Padding/padFalse.auto/checkpoints/20200804-1413/f1_best.model
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| test_dl.dataset size: 640
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| Starting test
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Test Loss: 0.69181	AUC: 0.502743
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Test KSV Loss: 6.62425
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	W1: 0.00049618	W2: 4.3434e-07
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	r1: 0.691666
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| 	Test AUC(C): 0.506905
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| RP soft 	 good:bad = 91:87
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| RP hard 	 nDCG = 0.7837±0.1548
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| train_dl.dataset size: 2048
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| valid_dl.dataset size: 512
+INFO : 08-04 15:29 : ksdkt/padFalse.auto 	| Starting train
+INFO : 08-04 15:45 : ksdkt/padFalse.auto 	| 	Epoch 100	Train Loss: 0.685416	AUC: 0.514532
+INFO : 08-04 15:45 : ksdkt/padFalse.auto 	| 	Epoch 100	Valid Loss: 0.686142	AUC: 0.500655
+INFO : 08-04 15:45 : ksdkt/padFalse.auto 	| 	Epoch 100	KSVectorLoss: 6.58001
+INFO : 08-04 15:45 : ksdkt/padFalse.auto 	| 	Epoch 100	W1: 0.000564185	W2: 6.22462e-07
+INFO : 08-04 15:45 : ksdkt/padFalse.auto 	| Best AUC 0.501039 at epoch 30
+INFO : 08-04 15:45 : ksdkt/padFalse.auto 	| At 15:45 16m 1s passed ( - 304m 19s til 21:27) (100epoch 5.0%)
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| 	Epoch 200	Train Loss: 0.677045	AUC: 0.523318
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| 	Epoch 200	Valid Loss: 0.678713	AUC: 0.499434
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| 	Epoch 200	KSVectorLoss: 6.50975
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| 	Epoch 200	W1: 0.000942745	W2: 2.47137e-06
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| Best AUC 0.501039 at epoch 30
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| Early stopping.
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| Loading model /code/output/20_05_13_Science_v10_baseline_Nopadding_Padding/padFalse.auto/checkpoints/20200804-1413/f2_best.model
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| test_dl.dataset size: 640
+INFO : 08-04 16:00 : ksdkt/padFalse.auto 	| Starting test
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| 	Test Loss: 0.691451	AUC: 0.503076
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| 	Test KSV Loss: 6.6189
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| 	W1: 0.000489553	W2: 4.17728e-07
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| 	r1: 0.691354
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| 	Test AUC(C): 0.505643
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| RP soft 	 good:bad = 86:92
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| RP hard 	 nDCG = 0.7748±0.1565
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| train_dl.dataset size: 2048
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| valid_dl.dataset size: 512
+INFO : 08-04 16:01 : ksdkt/padFalse.auto 	| Starting train
+INFO : 08-04 16:17 : ksdkt/padFalse.auto 	| 	Epoch 100	Train Loss: 0.685434	AUC: 0.515645
+INFO : 08-04 16:17 : ksdkt/padFalse.auto 	| 	Epoch 100	Valid Loss: 0.685309	AUC: 0.491493
+INFO : 08-04 16:17 : ksdkt/padFalse.auto 	| 	Epoch 100	KSVectorLoss: 6.57524
+INFO : 08-04 16:17 : ksdkt/padFalse.auto 	| 	Epoch 100	W1: 0.000587568	W2: 6.87526e-07
+INFO : 08-04 16:17 : ksdkt/padFalse.auto 	| Best AUC 0.494573 at epoch 10
+INFO : 08-04 16:17 : ksdkt/padFalse.auto 	| At 16:17 15m 39s passed ( - 297m 26s til 14:43) (100epoch 5.0%)
+INFO : 08-04 16:32 : ksdkt/padFalse.auto 	| 	Epoch 200	Train Loss: 0.677995	AUC: 0.524224
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	Epoch 200	Valid Loss: 0.677476	AUC: 0.490671
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	Epoch 200	KSVectorLoss: 6.50548
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	Epoch 200	W1: 0.000896058	W2: 2.24662e-06
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| Best AUC 0.494573 at epoch 10
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| Early stopping.
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| Loading model /code/output/20_05_13_Science_v10_baseline_Nopadding_Padding/padFalse.auto/checkpoints/20200804-1413/f3_best.model
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| test_dl.dataset size: 640
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| Starting test
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	Test Loss: 0.692439	AUC: 0.506709
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	Test KSV Loss: 6.62708
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	W1: 0.00050295	W2: 4.41452e-07
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	r1: 0.692479
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| 	Test AUC(C): 0.506316
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| RP soft 	 good:bad = 100:78
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| RP hard 	 nDCG = 0.8012±0.1570
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| train_dl.dataset size: 2048
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| valid_dl.dataset size: 512
+INFO : 08-04 16:33 : ksdkt/padFalse.auto 	| Starting train
+INFO : 08-04 16:44 : ksdkt/padFalse.auto 	| 	Epoch 100	Train Loss: 0.684599	AUC: 0.509731
+INFO : 08-04 16:44 : ksdkt/padFalse.auto 	| 	Epoch 100	Valid Loss: 0.685477	AUC: 0.499523
+INFO : 08-04 16:44 : ksdkt/padFalse.auto 	| 	Epoch 100	KSVectorLoss: 6.57697
+INFO : 08-04 16:44 : ksdkt/padFalse.auto 	| 	Epoch 100	W1: 0.000624041	W2: 8.09081e-07
+INFO : 08-04 16:44 : ksdkt/padFalse.auto 	| Best AUC 0.503232 at epoch 10
+INFO : 08-04 16:44 : ksdkt/padFalse.auto 	| At 16:44 11m 0s passed ( - 209m 12s til 04:18) (100epoch 5.0%)
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Epoch 200	Train Loss: 0.675796	AUC: 0.522936
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Epoch 200	Valid Loss: 0.678197	AUC: 0.496871
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Epoch 200	KSVectorLoss: 6.50467
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Epoch 200	W1: 0.0010675	W2: 3.38956e-06
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| Best AUC 0.503232 at epoch 10
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| Early stopping.
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| Loading model /code/output/20_05_13_Science_v10_baseline_Nopadding_Padding/padFalse.auto/checkpoints/20200804-1413/f4_best.model
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| test_dl.dataset size: 640
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| Starting test
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Test Loss: 0.692439	AUC: 0.501993
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Test KSV Loss: 6.62866
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	W1: 0.00050851	W2: 4.50053e-07
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	r1: 0.692485
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| 	Test AUC(C): 0.499649
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| RP soft 	 good:bad = 90:88
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| RP hard 	 nDCG = 0.7701±0.1443
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| fintrain_dl.dataset size: 2560
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| fintest_dl.dataset size: 640
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 16:55 : ksdkt/padFalse.auto 	| Starting train
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| Starting test
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| 	Test Loss: 0.686383	AUC: 0.491097
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| 	Test KSV Loss: 6.58442
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| 	W1: 0.000613476	W2: 7.5214e-07
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| 	r1: 0.685844
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| 	Test AUC(C): 0.50635
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| RP soft 	 good:bad = 97:81
+INFO : 08-04 17:04 : ksdkt/padFalse.auto 	| RP hard 	 nDCG = 0.7954±0.1603

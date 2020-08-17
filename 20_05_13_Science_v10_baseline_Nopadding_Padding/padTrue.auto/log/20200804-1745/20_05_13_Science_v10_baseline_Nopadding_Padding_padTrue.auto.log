@@ -1,0 +1,6 @@
+INFO : 08-04 17:45 : ksdkt/padTrue.auto 	| PyTorch: 1.5.0
+INFO : 08-04 17:45 : ksdkt/padTrue.auto 	| Using Device: cpu
+INFO : 08-04 17:45 : ksdkt/padTrue.auto 	| The model has 525,926 trainable parameters
+INFO : 08-04 17:45 : ksdkt/padTrue.auto 	| train_dl.dataset size: 2304
+INFO : 08-04 17:45 : ksdkt/padTrue.auto 	| valid_dl.dataset size: 576
+INFO : 08-04 17:45 : ksdkt/padTrue.auto 	| Starting train
